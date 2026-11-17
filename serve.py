@@ -20,12 +20,14 @@ ROOT = Path(__file__).resolve().parent
 
 
 def owner_key(directory):
-    directory.mkdir(parents=True, exist_ok=True)
+    directory.mkdir(parents=True, exist_ok=True, mode=0o700)
     path = directory / 'owner.key'
     if not path.exists():
         fd = os.open(path, os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o600)
         with os.fdopen(fd, 'w', encoding='ascii') as stream:
             stream.write(secrets.token_hex(32))
+    if os.name == 'posix' and path.stat().st_mode & 0o077:
+        os.chmod(path, 0o600)   # repair a loose pre-existing key rather than trust it
     key = path.read_text(encoding='ascii').strip()
     if not re.fullmatch('[0-9a-f]{64}', key):
         raise ValueError('Invalid local author capability file')
@@ -33,6 +35,7 @@ def owner_key(directory):
 
 
 class Handler(SimpleHTTPRequestHandler):
+    timeout = 15   # seconds per socket operation: stalled or short-bodied connections cannot pin a thread forever
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT/'web'), **kwargs)
 
@@ -40,10 +43,29 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_header('Cache-Control', 'no-cache')
         self.send_header('X-Content-Type-Options', 'nosniff')
         self.send_header('Referrer-Policy', 'no-referrer')
+        self.send_header('X-Frame-Options', 'DENY')
+        self.send_header('Content-Security-Policy', "frame-ancestors 'none'")
         super().end_headers()
 
     def log_message(self, *_):
         pass
+
+    def host_ok(self):
+        # DNS-rebinding guard: only the literal loopback names on our own port are answered.
+        return self.headers.get('Host', '') in (f'127.0.0.1:{self.server.server_port}', f'localhost:{self.server.server_port}')
+
+    def list_directory(self, path):
+        self.send_error(404, 'No directory listing')
+        return None
+
+    def do_HEAD(self):
+        if not self.host_ok():
+            return self.send_error(403, 'Host not allowed')
+        path = urlsplit(self.path).path
+        if path.startswith(('/api/', '/patches/')):
+            self.send_response(200); self.send_header('Content-Length', '0'); self.end_headers()
+        else:
+            super().do_HEAD()
 
     def writer(self):
         header = self.headers.get('Authorization', '')
@@ -74,6 +96,9 @@ class Handler(SimpleHTTPRequestHandler):
                 'local_reference': True, 'model_calls': 0, 'identity_scope': 'Local author capability; no authenticated human-presence count.'}
 
     def do_GET(self):
+        if not self.host_ok():
+            self.send_data({'error': 'Host header not allowed'}, 403)
+            return
         url = urlsplit(self.path)
         path = url.path
         store = self.server.store
@@ -108,6 +133,9 @@ class Handler(SimpleHTTPRequestHandler):
             self.send_data({'error': str(error)}, 400)
 
     def do_POST(self):
+        if not self.host_ok():
+            self.send_data({'error': 'Host header not allowed'}, 403)
+            return
         if not self.writer() or not self.allowed_origin():
             self.send_data({'error': 'A local author capability and same-origin request are required. Open the author URL printed by the server.'}, 403)
             return
@@ -134,8 +162,8 @@ class Handler(SimpleHTTPRequestHandler):
             self.send_data({'error': str(error), 'code': 'HEAD_CONFLICT'}, 409)
         except AdmissionRefused as error:
             self.send_data({'error': str(error), 'attempt': error.attempt}, 400)
-        except (ValueError, KeyError, TypeError) as error:
-            self.send_data({'error': str(error)}, 400)
+        except (ValueError, KeyError, TypeError, RecursionError) as error:
+            self.send_data({'error': str(error) if not isinstance(error, RecursionError) else 'JSON nested too deeply'}, 400)
 
 
 def make_server(store, key, port=8820):

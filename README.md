@@ -128,3 +128,8 @@ The Loom mapping follows the inspected `x3d.loom` revision
 `7a7d65709c16633afecc5b5e482d28202707db13`. No upstream repository was changed
 or published. Historical model/pricing/capacity claims in the source notes are
 not treated as verified behavior of this implementation.
+
+## Static viewer and review (added 17 Nov 2026)
+
+- `web/index.html` also runs server-less (GitHub Pages) from `web/static-world/`, re-verifying the archive in the browser: see `docs/PAGES.md`.
+- An independent 6-lane review with adversarial verification is in `docs/REVIEW-2026-11-17.md`; its reproducible defects in the gate and the local server are fixed and covered by `tests/test_review_fixes.py`.

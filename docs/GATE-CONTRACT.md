@@ -71,3 +71,7 @@ Independent pinned `x3d_mcp` XSD/semantic checks remain separate instruments. A 
 ## Checks
 
 `python3 -m unittest discover -s tests -p test_gate.py` exercises finite/typed fields, wrapper/text injection, forbidden capabilities, containment, DEF/USE order/type/cycles, typed/local routes, animation ranges, timer/light/key caps, source/expansion caps, mesh/grid/Extrusion cardinalities, fitting, rotating offset geometry, instrument drift, and all six authored generator families at five tiers. See the release validation record for the fresh executed count.
+
+
+## Known mismatch (review 17 Nov 2026, F1)
+`PhysicalMaterial` is in the vocabulary above, but the pinned upstream semantic pass reports `profile-component` for it under the Immersive wrapper, so no fragment using it can currently be admitted. Sub-single-precision magnitudes (below 1.1754944e-38) are refused for sizes and scales since the same review (G1).

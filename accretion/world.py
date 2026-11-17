@@ -312,12 +312,15 @@ class WorldStore:
         return verify_archive(self.archive())
 
     def export_x3d(self):
-        archive = self.archive()
-        children = []
-        for row in archive['entries']:
-            pos = row['payload']['plan']['translation']
-            children.append('<Transform translation="'+' '.join(str(v) for v in pos)+'">'+row['canonical_x3d']+'</Transform>')
-        return '<?xml version="1.0" encoding="UTF-8"?>\n<X3D profile="Immersive" version="4.0"><head><meta name="title" content="Accretion Observatory snapshot"/></head><Scene><WorldInfo title="Local procedural accretion snapshot"/><Background skyColor="0.012 0.025 0.04"/><Viewpoint position="40 36 65" orientation="-0.7 0.7 0.1 0.65"/><DirectionalLight direction="-0.4 -1 -0.6" intensity="0.9"/>'+''.join(children)+'</Scene></X3D>\n'
+        return export_x3d_from_archive(self.archive())
+
+
+def export_x3d_from_archive(archive):
+    children = []
+    for row in archive['entries']:
+        pos = row['payload']['plan']['translation']
+        children.append('<Transform translation="'+' '.join(str(v) for v in pos)+'">'+row['canonical_x3d']+'</Transform>')
+    return '<?xml version="1.0" encoding="UTF-8"?>\n<X3D profile="Immersive" version="4.0"><head><meta name="title" content="Accretion Observatory snapshot"/></head><Scene><WorldInfo title="Local procedural accretion snapshot"/><Background skyColor="0.012 0.025 0.04"/><Viewpoint position="40 36 65" orientation="-0.7 0.7 0.1 0.65"/><DirectionalLight direction="-0.4 -1 -0.6" intensity="0.9"/>'+''.join(children)+'</Scene></X3D>\n'
 
 
 def verify_archive(archive, checkpoint=None):

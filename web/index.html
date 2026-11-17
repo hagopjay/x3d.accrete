@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07151a">
   <title>Accretion · A world with a memory</title>
-  <link rel="stylesheet" href="/vendor/x_ite/x_ite.css"><link rel="stylesheet" href="/style.css">
-  <script src="/vendor/x_ite/x_ite.min.js"></script><script src="/app.js" defer></script>
+  <link rel="stylesheet" href="vendor/x_ite/x_ite.css"><link rel="stylesheet" href="style.css">
+  <script src="vendor/x_ite/x_ite.min.js"></script><script src="verify-archive.js"></script><script src="static-mode.js"></script><script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#growth-controls">Skip to world controls</a>
   <header class="masthead">
-    <a href="/" class="brand" aria-label="Accretion Observatory home"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 24h8v-8H16v16h24V8H8v32h32"/><circle cx="24" cy="24" r="2.8"/><path d="M40 40v-7"/></svg><span><strong>ACCRETION</strong><small>A WORLD WITH A MEMORY <b>/ 01</b></small></span></a>
+    <a href="./" class="brand" aria-label="Accretion Observatory home"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 24h8v-8H16v16h24V8H8v32h32"/><circle cx="24" cy="24" r="2.8"/><path d="M40 40v-7"/></svg><span><strong>ACCRETION</strong><small>A WORLD WITH A MEMORY <b>/ 01</b></small></span></a>
     <p class="masthead-line">Every addition has a place.<br><em>Every claim has a boundary.</em></p>
-    <nav aria-label="World actions"><a class="quiet guide-link" href="/field-guide.html" aria-label="Read the Accretion field guide">Guide <span aria-hidden="true">↗</span></a><button class="quiet" id="help-open">Field notes <span aria-hidden="true">↗</span></button><button class="quiet" id="verify-top">Verify history <span aria-hidden="true">⌁</span></button><button id="focus" class="quiet" aria-pressed="false">Focus <span aria-hidden="true">⤢</span></button></nav>
+    <nav aria-label="World actions"><a class="quiet guide-link" href="field-guide.html" aria-label="Read the Accretion field guide">Guide <span aria-hidden="true">↗</span></a><button class="quiet" id="help-open">Field notes <span aria-hidden="true">↗</span></button><button class="quiet" id="verify-top">Verify history <span aria-hidden="true">⌁</span></button><button id="focus" class="quiet" aria-pressed="false">Focus <span aria-hidden="true">⤢</span></button></nav>
   </header>
   <div class="mode-bar" role="note"><span class="live-dot" aria-hidden="true"></span><strong>LOCAL REFERENCE</strong><span>/</span><span>PROCEDURAL GROWTH</span><span>/</span><span>NO MODEL CALLS</span><span class="mode-tail">Local admission · render unmeasured · not a Loom release receipt</span></div>
 
@@ -75,7 +75,7 @@
     <aside class="ledger-column" aria-label="World ledger and continuity">
       <section class="continuity panel"><div class="panel-kicker"><span>03 / INSPECT CONTINUITY</span><span class="chain-mark">⌁</span></div><h2>Keep the history.<br><em>Question the claim.</em></h2><p>Hash continuity can expose drift relative to a trusted checkpoint. It does not establish authorship.</p><div class="tail-label">CURRENT TAIL</div><code id="tail-hash" class="tail-hash">Reading…</code><button id="verify" class="secondary">Verify stored history <span aria-hidden="true">→</span></button><div id="verify-result" class="verify-result" role="status">No verification requested.</div><details id="verify-details" hidden><summary>Inspect verification output</summary><pre id="verify-json" class="code-block"></pre></details></section>
       <section class="ledger-shell panel"><div class="ledger-heading"><div><span class="eyebrow">THE APPEND LOG</span><h2>Latest additions.</h2></div><span id="ledger-count" class="tag">0</span></div><label class="search-field"><span class="sr-only">Search loaded additions</span><input id="ledger-search" type="search" placeholder="Find a title, cell or sequence…"></label><ol id="ledger" class="ledger-list"><li class="empty">The world has not been read yet.</li></ol><p id="ledger-scope" class="small-note">Loaded entries only. History remains in the store.</p></section>
-      <section class="export-shell panel"><span class="eyebrow">TAKE THE WORLD WITH YOU</span><h3>Portable evidence.<br>Native geometry.</h3><a href="/api/export.json" class="export-link" download>World archive <span>JSON ↗</span></a><a href="/api/export.x3d" class="export-link" download>Native world <span>X3D ↗</span></a><p class="small-note">Exports preserve their declared scope. No model usage or visual measurement is invented.</p><button id="connect-author" class="text-button">Connect a local author session</button></section>
+      <section class="export-shell panel"><span class="eyebrow">TAKE THE WORLD WITH YOU</span><h3>Portable evidence.<br>Native geometry.</h3><a href="api/export.json" class="export-link" download>World archive <span>JSON ↗</span></a><a href="api/export.x3d" class="export-link" download>Native world <span>X3D ↗</span></a><p class="small-note">Exports preserve their declared scope. No model usage or visual measurement is invented.</p><button id="connect-author" class="text-button">Connect a local author session</button></section>
     </aside>
   </main>
   <footer class="site-footer"><span>ACCRETION / OBSERVABLE BY CONSTRUCTION</span><p>A local reference built from the design notes. Authored procedural seeds, deliberate growth and inspectable limits.</p><span id="connection-status">CONNECTING</span></footer>

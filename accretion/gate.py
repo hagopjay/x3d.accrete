@@ -21,8 +21,9 @@ MAX_DEPTH = 16
 MAX_EXPANDED_SHAPES = 160
 SLOT_RADIUS = 3.0
 REJECT_RADIUS = 120.0
-_FLOAT = re.compile(r'[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?\Z')
-_INT = re.compile(r'[+-]?\d+\Z')
+_FLOAT = re.compile(r'[+-]?(?:[0-9]+(?:\.[0-9]*)?|\.[0-9]+)(?:[eE][+-]?[0-9]+)?\Z')
+FLOAT32_MIN_NORMAL = 1.1754943508222875e-38   # smaller magnitudes are denormal/zero in X3D SFFloat
+_INT = re.compile(r'[+-]?[0-9]+\Z')
 _NAME = re.compile(r'[A-Za-z_][A-Za-z0-9_]{0,127}\Z')
 _PREFIX = re.compile(r'[A-Za-z_][A-Za-z0-9_]{0,39}\Z')
 _ENTITY = re.compile(r'&(?!(?:amp|lt|gt|apos|quot);)')
@@ -52,7 +53,7 @@ def _fmt(value):
 
 
 def _nums(text, count=None, low=-1e6, high=1e6, integers=False, multiple=None, max_items=8192):
-    parts = text.replace(',', ' ').split()
+    parts = [p for p in re.split(r'[ \t\r\n,]+', text) if p]   # ASCII X3D whitespace only
     if not parts or len(parts) > max_items or count is not None and len(parts) != count:
         _fail('FIELD_LENGTH', f'Numeric field needs {count or "a bounded nonempty list of"} values')
     if multiple and len(parts) % multiple:
@@ -74,8 +75,8 @@ def _boolean(text):
 
 def _positive(text, count=1):
     result = _nums(text, count)
-    if any(v <= 0 for v in result):
-        _fail('FIELD_POSITIVE', 'Dimension must be strictly positive')
+    if any(v <= 0 or v < FLOAT32_MIN_NORMAL for v in result):
+        _fail('FIELD_POSITIVE', 'Dimension must be strictly positive and at least the smallest normal single-precision value')
     return result[0] if count == 1 else result
 
 
@@ -103,7 +104,7 @@ def _field(kind, text):
         return _positive(text, 3)
     if kind == 'scale':
         value = _nums(text, 3)
-        if any(v == 0 for v in value):
+        if any(v == 0 or abs(v) < FLOAT32_MIN_NORMAL for v in value):
             _fail('ZERO_SCALE', 'Static scale components must be nonzero')
         return value
     if kind == 'vec3':
@@ -334,7 +335,7 @@ def gate_fragment(xml: str, prefix: str = 'P') -> dict:
                 width = INTERPOLATORS[node.tag][0]
                 if len(parsed['keyValue']) != len(parsed['key']) * width:
                     _fail('KEY_VALUE_COUNT', 'Interpolator keyValue count does not match keys')
-            if node.tag == 'SpotLight' and parsed.get('beamWidth', math.pi/4) > parsed.get('cutOffAngle', math.pi/2):
+            if node.tag == 'SpotLight' and parsed.get('beamWidth', 0.589049) > parsed.get('cutOffAngle', math.pi/2):
                 _fail('SPOT_CONE', 'SpotLight beamWidth must not exceed cutOffAngle')
             counters['shapes'] += node.tag == 'Shape'
             counters['materials'] += node.tag in ('Material', 'PhysicalMaterial')

@@ -1,0 +1,23 @@
+name: ci
+on:
+  push: { branches: [main] }
+  pull_request:
+permissions: { contents: read }
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: { python: ['3.12', '3.13'], opt: ['', '-O'] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '${{ matrix.python }}' }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - run: python -m pip install -r requirements.txt
+      - run: python ${{ matrix.opt }} -m unittest discover -s tests -p 'test_*.py'
+      - run: node --check web/app.js && node --check web/verify-archive.js && node --check web/static-mode.js
+      - name: static payload is current
+        run: python tools/export_static.py --archive examples/demo-96/world.json --check
+      - name: example archive verifies
+        run: python tools/verify_export.py examples/world.json
