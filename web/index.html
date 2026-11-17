@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07151a">
+  <title>Accretion · A world with a memory</title>
+  <link rel="stylesheet" href="/vendor/x_ite/x_ite.css"><link rel="stylesheet" href="/style.css">
+  <script src="/vendor/x_ite/x_ite.min.js"></script><script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#growth-controls">Skip to world controls</a>
+  <header class="masthead">
+    <a href="/" class="brand" aria-label="Accretion Observatory home"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 24h8v-8H16v16h24V8H8v32h32"/><circle cx="24" cy="24" r="2.8"/><path d="M40 40v-7"/></svg><span><strong>ACCRETION</strong><small>A WORLD WITH A MEMORY <b>/ 01</b></small></span></a>
+    <p class="masthead-line">Every addition has a place.<br><em>Every claim has a boundary.</em></p>
+    <nav aria-label="World actions"><a class="quiet guide-link" href="/field-guide.html" aria-label="Read the Accretion field guide">Guide <span aria-hidden="true">↗</span></a><button class="quiet" id="help-open">Field notes <span aria-hidden="true">↗</span></button><button class="quiet" id="verify-top">Verify history <span aria-hidden="true">⌁</span></button><button id="focus" class="quiet" aria-pressed="false">Focus <span aria-hidden="true">⤢</span></button></nav>
+  </header>
+  <div class="mode-bar" role="note"><span class="live-dot" aria-hidden="true"></span><strong>LOCAL REFERENCE</strong><span>/</span><span>PROCEDURAL GROWTH</span><span>/</span><span>NO MODEL CALLS</span><span class="mode-tail">Local admission · render unmeasured · not a Loom release receipt</span></div>
+
+  <main class="workspace">
+    <aside class="control-column panel" id="growth-controls" aria-label="Growth controls">
+      <div class="panel-kicker"><span>01 / SHAPE THE NEXT ADDITION</span><span id="role-badge" class="tag">CONNECTING</span></div>
+      <h1>A world<br>that keeps<br><em>its history.</em></h1>
+      <p class="intro">Grow a procedural structure. Inspect the exact candidate, the checks and the place it received.</p>
+      <div class="role-note" id="role-note">Reading the local world.</div>
+      <div class="control-tabs" role="tablist" aria-label="Builder modes"><button role="tab" aria-selected="true" aria-controls="builder-grow" id="builder-tab-grow" data-builder="grow">Grow</button><button role="tab" aria-selected="false" aria-controls="builder-submit" id="builder-tab-submit" data-builder="submit" tabindex="-1">Submit X3D</button></div>
+      <section id="builder-grow" role="tabpanel" aria-labelledby="builder-tab-grow">
+        <label class="field-label" for="tier">Structural ambition <output id="tier-value" for="tier">03</output></label>
+        <input id="tier" type="range" min="1" max="5" step="1" value="3">
+        <div class="tier-name"><strong id="tier-name">Structure</strong><span id="tier-brief">A readable mechanism and gentle motion.</span></div>
+        <div class="tier-scale" aria-hidden="true"><span>SKETCH</span><span>ORGANISM</span></div>
+        <label class="field-label" for="growth-mode">Placement intention</label>
+        <select id="growth-mode"><option value="auto">Let the deterministic planner choose</option><option value="generate">Expand the frontier</option><option value="augment">Add a layer to a cell</option></select>
+        <p class="small-note">The planner owns the cell and layer. The generator supplies the structure inside its slot.</p>
+        <button id="grow" class="primary" disabled><span>Grow one addition</span><span aria-hidden="true">↗</span></button>
+        <p class="button-note">One deliberate press. No timed generation.</p>
+      </section>
+      <section id="builder-submit" role="tabpanel" aria-labelledby="builder-tab-submit" hidden>
+        <label class="field-label" for="candidate-title">Title</label><input id="candidate-title" type="text" maxlength="96" placeholder="Name this addition">
+        <label class="field-label" for="candidate-instruction">A note to the next builder</label><input id="candidate-instruction" type="text" maxlength="240" placeholder="Leave one useful idea…">
+        <div class="field-label"><label for="candidate-x3d">X3D fragment</label><button id="example" class="text-button">Load example</button></div>
+        <textarea id="candidate-x3d" spellcheck="false" rows="13" aria-describedby="candidate-size" placeholder="&lt;Group&gt;…&lt;/Group&gt;"></textarea>
+        <div class="editor-foot"><span id="candidate-size">0 bytes</span><span>Untrusted input · gate first</span></div>
+        <button id="submit" class="primary" disabled><span>Inspect and append</span><span aria-hidden="true">→</span></button>
+        <p class="small-note">Only an admitted canonical fragment can enter the world. A rejected proposal adds no world entry.</p>
+      </section>
+      <div id="run-state" class="run-state" role="status" aria-live="polite">Starting the observatory…</div>
+      <section class="attempt-section" aria-label="Last admission attempt"><div class="subheading"><span>LAST LOCAL ATTEMPT</span><span id="attempt-state">—</span></div><ol id="stage-list" class="stage-list"><li class="empty">An append will expose its actual checks here.</li></ol><p id="attempt-detail" class="small-note">No model token or hidden-thinking estimate is inferred.</p></section>
+      <div class="sidebar-foot"><span class="symbol">+</span><p>Structural quantity is measured.<br>Visual quality is not reduced to a score.</p></div>
+    </aside>
+
+    <section class="world-column" aria-label="Living world and inspection">
+      <div class="world-shell panel">
+        <div class="world-heading"><div><span class="eyebrow">02 / FOLLOW THE ACCRETION</span><h2 id="world-title">The frontier is waiting.</h2></div><div class="world-tools" aria-label="Preview camera"><button id="overview" class="icon-button" title="Reframe the loaded world" aria-label="Overview camera">⌖</button><button id="camera-orbit" class="view-button on" aria-pressed="true">Orbit</button><button id="camera-fly" class="view-button" aria-pressed="false">Fly</button></div></div>
+        <div id="viewport" class="viewport">
+          <x3d-canvas id="scene" splashScreen="false" contextMenu="false" aria-label="Illustrative X3D accretion world preview"></x3d-canvas>
+          <div class="viewport-head"><span class="preview-label">LOCAL X3D WORLD</span><span id="renderer-state" class="renderer-state">Checking renderer</span></div>
+          <div id="preview-fallback" class="preview-fallback" hidden><div class="fallback-mark" aria-hidden="true">⌁</div><h3>The world remains inspectable.</h3><p>This browser has no usable WebGL preview. Growth, source inspection, history verification and export remain available.</p></div>
+          <div id="patch-context" class="patch-context"><span class="eyebrow" id="context-kicker">WORLD CONTEXT</span><h3 id="context-title">A growing archive of small structures.</h3><p id="context-note">Every local append carries its candidate and instrument identities.</p><div class="context-stamp">LOCAL ADMISSION <span>·</span> RENDER UNMEASURED</div></div>
+          <button id="focus-selected" class="focus-selected" disabled>Frame selected addition <span aria-hidden="true">↗</span></button>
+          <div class="viewport-foot"><span>Drag to orbit · wheel to travel</span><span id="render-count">No entries loaded</span></div>
+          <div class="timeline-panel"><div class="timeline-top"><label for="timeline">History preview <output id="timeline-value">0 / 0</output></label><button id="follow-tail" class="text-button">Follow live tail</button></div><input id="timeline" type="range" min="0" max="0" step="1" value="0" disabled><div class="timeline-note"><span id="timeline-note">Preview changes do not remove history.</span><label for="detail-budget">Detail <select id="detail-budget"><option value="24">24 latest</option><option value="48" selected>48 latest</option><option value="96">96 latest</option></select></label></div></div>
+        </div>
+        <div class="world-stats"><div><span>WORLD HEAD</span><strong id="stat-head">—</strong><small>append-only entries</small></div><div><span>OCCUPIED CELLS</span><strong id="stat-cells">—</strong><small>deterministic placement</small></div><div><span>HIGHEST STRATUM</span><strong id="stat-level">—</strong><small>model layers</small></div><div><span>MODEL CALLS</span><strong>0</strong><small>procedural reference</small></div></div>
+      </div>
+
+      <section class="detail-shell panel" aria-label="Selected addition details">
+        <div class="detail-tabs" role="tablist" aria-label="Inspection views"><button role="tab" id="tab-detail" aria-selected="true" aria-controls="panel-detail" data-tab="detail">Addition</button><button role="tab" id="tab-evidence" aria-selected="false" aria-controls="panel-evidence" data-tab="evidence" tabindex="-1">Admission</button><button role="tab" id="tab-source" aria-selected="false" aria-controls="panel-source" data-tab="source" tabindex="-1">Canonical X3D</button><button role="tab" id="tab-record" aria-selected="false" aria-controls="panel-record" data-tab="record" tabindex="-1">Full record</button></div>
+        <div id="panel-detail" class="tab-panel" role="tabpanel" aria-labelledby="tab-detail"><div class="detail-intro"><span class="eyebrow">A CANDIDATE, A PLACE, A RECORD</span><span id="detail-sequence">—</span></div><h3 id="detail-title">Select an addition to inspect it.</h3><p id="detail-instruction" class="detail-instruction">The ledger connects a visible structure with its source and local admission record.</p><dl id="detail-facts" class="detail-facts"></dl></div>
+        <div id="panel-evidence" class="tab-panel" role="tabpanel" aria-labelledby="tab-evidence" hidden><div class="detail-intro"><span class="eyebrow">NAMED LOCAL CHECKS / LIMITED CLAIM</span></div><p class="section-note">A local admission record is not a formal Loom release receipt. Read each instrument's scope.</p><div id="evidence-list"></div></div>
+        <div id="panel-source" class="tab-panel" role="tabpanel" aria-labelledby="tab-source" hidden><div class="detail-intro"><span class="eyebrow">EXACT CANONICAL FRAGMENT</span><button id="copy-source" class="text-button" disabled>Copy source</button></div><pre id="source-text" class="code-block" tabindex="0">No addition selected.</pre></div>
+        <div id="panel-record" class="tab-panel" role="tabpanel" aria-labelledby="tab-record" hidden><div class="detail-intro"><span class="eyebrow">IDENTITY IS NOT AUTHORSHIP</span></div><pre id="record-text" class="code-block" tabindex="0">No addition selected.</pre></div>
+      </section>
+      <div id="error" class="error-banner" role="alert" hidden></div>
+    </section>
+
+    <aside class="ledger-column" aria-label="World ledger and continuity">
+      <section class="continuity panel"><div class="panel-kicker"><span>03 / INSPECT CONTINUITY</span><span class="chain-mark">⌁</span></div><h2>Keep the history.<br><em>Question the claim.</em></h2><p>Hash continuity can expose drift relative to a trusted checkpoint. It does not establish authorship.</p><div class="tail-label">CURRENT TAIL</div><code id="tail-hash" class="tail-hash">Reading…</code><button id="verify" class="secondary">Verify stored history <span aria-hidden="true">→</span></button><div id="verify-result" class="verify-result" role="status">No verification requested.</div><details id="verify-details" hidden><summary>Inspect verification output</summary><pre id="verify-json" class="code-block"></pre></details></section>
+      <section class="ledger-shell panel"><div class="ledger-heading"><div><span class="eyebrow">THE APPEND LOG</span><h2>Latest additions.</h2></div><span id="ledger-count" class="tag">0</span></div><label class="search-field"><span class="sr-only">Search loaded additions</span><input id="ledger-search" type="search" placeholder="Find a title, cell or sequence…"></label><ol id="ledger" class="ledger-list"><li class="empty">The world has not been read yet.</li></ol><p id="ledger-scope" class="small-note">Loaded entries only. History remains in the store.</p></section>
+      <section class="export-shell panel"><span class="eyebrow">TAKE THE WORLD WITH YOU</span><h3>Portable evidence.<br>Native geometry.</h3><a href="/api/export.json" class="export-link" download>World archive <span>JSON ↗</span></a><a href="/api/export.x3d" class="export-link" download>Native world <span>X3D ↗</span></a><p class="small-note">Exports preserve their declared scope. No model usage or visual measurement is invented.</p><button id="connect-author" class="text-button">Connect a local author session</button></section>
+    </aside>
+  </main>
+  <footer class="site-footer"><span>ACCRETION / OBSERVABLE BY CONSTRUCTION</span><p>A local reference built from the design notes. Authored procedural seeds, deliberate growth and inspectable limits.</p><span id="connection-status">CONNECTING</span></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="help-dialog" aria-labelledby="help-title"><div class="dialog-heading"><span class="eyebrow">FIELD NOTES / GET CURIOUS</span><button class="icon-button" id="help-close" aria-label="Close field notes">×</button></div><h2 id="help-title">A world grows.<br><em>The evidence stays specific.</em></h2><ol class="help-steps"><li><strong>Move through the world.</strong><span>Orbit or fly. Select an addition from the ledger or click its geometry. The viewport is an illustrative preview, not a recorded render witness.</span></li><li><strong>Grow deliberately.</strong><span>Use the local author link printed by the server. Choose a tier and press Grow once. Procedural generation needs no model key or paid call.</span></li><li><strong>Inspect admission.</strong><span>The fragment gate and pinned validator results belong to the exact stored candidate. Complexity describes structural quantity, not beauty.</span></li><li><strong>Scrub without erasing.</strong><span>History preview changes only this view. The append log and real world head stay intact.</span></li><li><strong>Verify, then retain a checkpoint.</strong><span>Continuity is relative to the tail you trust. A rewritten chain or a matching hash does not identify an author.</span></li></ol><p class="dialog-foot">This edition does not recreate Claude presence, real people, cloud database permissions, paid generation, hidden token counts or a formal Loom acceptance pipeline.</p></dialog>
+  <dialog id="author-dialog" aria-labelledby="author-title"><div class="dialog-heading"><span class="eyebrow">LOCAL CAPABILITY / THIS TAB</span><button class="icon-button" id="author-close" aria-label="Close author connection">×</button></div><h2 id="author-title">Connect the author<br><em>link from your terminal.</em></h2><p>Paste the local capability token or the complete author URL printed by this running server. It stays in this tab's session storage and is sent only to this local app.</p><label class="field-label" for="author-token">Local capability</label><input id="author-token" type="password" autocomplete="off" spellcheck="false" placeholder="Local token or author URL"><button id="author-connect" class="primary">Connect this tab <span aria-hidden="true">→</span></button><p id="author-message" class="small-note" role="status">A viewer can inspect and export without this capability.</p></dialog>
+</body>
+</html>

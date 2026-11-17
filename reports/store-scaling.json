@@ -1,0 +1,3993 @@
+{
+  "checkpoints": [
+    {
+      "append_mean_ms_stage": 174.246,
+      "append_median_ms_stage": 15.78,
+      "append_p95_ms_stage": 1591.718,
+      "append_wall_seconds_cumulative": 1.742456,
+      "append_wall_seconds_stage": 1.742456,
+      "archive_read_wall_seconds": 0.000939,
+      "checkpoint": {
+        "hash": "60da3f270ae593f4ea6edbb55948c6b6e03da9792b59f3bb341c6b581bbda594",
+        "head": 10
+      },
+      "entries": 10,
+      "first_append_ms_including_cold_validation": 1591.718,
+      "json_bytes": 182461,
+      "json_serialize_wall_seconds": 0.001496,
+      "max_storage_bytes_observed": 229376,
+      "prepare_gate_and_validator_ms_cumulative": 1695.592,
+      "storage_bytes": {
+        "database": 229376,
+        "shared_memory": 0,
+        "total": 229376,
+        "wal": 0
+      },
+      "verify_checked_entries": 10,
+      "verify_valid": true,
+      "verify_wall_seconds": 0.003096,
+      "x3d_bytes": 27077,
+      "x3d_export_wall_seconds": 0.00194
+    },
+    {
+      "append_mean_ms_stage": 28.788,
+      "append_median_ms_stage": 27.198,
+      "append_p95_ms_stage": 45.225,
+      "append_wall_seconds_cumulative": 4.333409,
+      "append_wall_seconds_stage": 2.590952,
+      "archive_read_wall_seconds": 0.008145,
+      "checkpoint": {
+        "hash": "48aa3221febd2010d9e4ecc0428c4f2cddbab3606235ec8e06567a555fa0e310",
+        "head": 100
+      },
+      "entries": 100,
+      "first_append_ms_including_cold_validation": 1591.718,
+      "json_bytes": 1819603,
+      "json_serialize_wall_seconds": 0.014898,
+      "max_storage_bytes_observed": 1982464,
+      "prepare_gate_and_validator_ms_cumulative": 2819.254,
+      "storage_bytes": {
+        "database": 1982464,
+        "shared_memory": 0,
+        "total": 1982464,
+        "wal": 0
+      },
+      "verify_checked_entries": 100,
+      "verify_valid": true,
+      "verify_wall_seconds": 0.028118,
+      "x3d_bytes": 266921,
+      "x3d_export_wall_seconds": 0.012875
+    }
+  ],
+  "corpus": [
+    {
+      "candidate": {
+        "canonical_sha256": "4e8cfea858c3a8e66bcb262e076994d624902777a9c9e330b45e67aaa11d9279",
+        "raw_sha256": "8a0febfc9c1e4bf7b37b1d39579bd1d3a1c45380a85c2c8b618f1383ed6050a2",
+        "scene_sha256": "5686123ecb090c8b95535d14be0463d5cfd273a89ecb327d1a6b0f84163c288d"
+      },
+      "family": "gyroscope",
+      "hash": "490a61c1c5fc3860f76e2a5cfd4385a6570d51bece29861822eb9bccfd68d102",
+      "n": 1,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          0,
+          0
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 1,
+        "requested_mode": "auto",
+        "seed": "0165924b1d5d5d514d71048473e807f5e83d26d1666d6245150c09c729bfc592",
+        "seed_word": "vessel",
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "prev_hash": "790f55863a591ed5a5b3201079071451f24672ac369e23ef33eb01040aabd80c",
+      "raw_bytes": 2311,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "45a9e423308da3e5f75e027132cf43f4809d0896daf9b128902786e96ee7e572",
+        "raw_sha256": "d3b25d3a4f9b3eaa90ee952851249c6214be8d61891731b10890e85db983ad55",
+        "scene_sha256": "1c8ed7e561ba049b1fa4f90db999058046d45505333b00ab6053a5e52b332548"
+      },
+      "family": "orrery",
+      "hash": "90ba74cf537540717af1eedfdba6b9aeaa397993be64520250208350185a6c1b",
+      "n": 2,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          1,
+          0
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 2,
+        "requested_mode": "auto",
+        "seed": "afc734c69d978b66de0f73db6ddff1a346c548aeb4a3053e5f7d92cd642195a9",
+        "seed_word": "aurora",
+        "translation": [
+          8,
+          0,
+          0
+        ]
+      },
+      "prev_hash": "490a61c1c5fc3860f76e2a5cfd4385a6570d51bece29861822eb9bccfd68d102",
+      "raw_bytes": 2327,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "8697fe1eddad17d1295446014dacceada3b291b1d4c3a40908dd839ce30cddbf",
+        "raw_sha256": "454521f60979a938c18cb30606ea6de3ffeb3d1435c6da00d4b7a99b52a486e1",
+        "scene_sha256": "4db88fff6601237881d5f3b6c2c7f89690c9db3ab543add29d8875db4bc59bb2"
+      },
+      "family": "gyroscope",
+      "hash": "163d30cb33a7d3c0c205b2032b6f7bdd7770f6e9fff0d50320a2d282eae7d0bd",
+      "n": 3,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          0,
+          0
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 1,
+        "mode": "augment",
+        "n": 3,
+        "requested_mode": "auto",
+        "seed": "314e5c3b4b74ecc3d1889ed5d16d163ed6b41de4416cc8b3e084acabed5de87f",
+        "seed_word": "lattice",
+        "translation": [
+          0,
+          6.6,
+          0
+        ]
+      },
+      "prev_hash": "90ba74cf537540717af1eedfdba6b9aeaa397993be64520250208350185a6c1b",
+      "raw_bytes": 2314,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "6e5a280ad24e2d0d6185246e67ba71ea8705a11c19b439e84a2cef9a9d4f8c2b",
+        "raw_sha256": "217172d655e298036176f25a0701106aac4da32517bf08f8a452ee87d65481f7",
+        "scene_sha256": "2e98b940aaff5c193fb5505a20b9693cfcf058a30641db4a6e5309d0547a7cf7"
+      },
+      "family": "coral",
+      "hash": "8ab60fea5dca8171202c23e6d4617100391d52108d16a4549d0835f3ba828845",
+      "n": 4,
+      "nodes": 56,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          1,
+          1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 4,
+        "requested_mode": "auto",
+        "seed": "3cc42eb8e025fbf4f2519ac69a32fabb295ca64cb64e9d56ca23927090312b72",
+        "seed_word": "coral",
+        "translation": [
+          8,
+          0,
+          8
+        ]
+      },
+      "prev_hash": "163d30cb33a7d3c0c205b2032b6f7bdd7770f6e9fff0d50320a2d282eae7d0bd",
+      "raw_bytes": 2642,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "9de3260bd821f4518968ffb323895eca03aa72df010c55301b290cc6f008dc5e",
+        "raw_sha256": "90a427bb95458fc0ccc4729da090c5a89f9af1592ab22099c4fc05454e410307",
+        "scene_sha256": "327b72d5075aa4b3a01d2943a09d9a5a95a4f75a30ec41a2d14c9141b8edf65c"
+      },
+      "family": "coral",
+      "hash": "97ab75afcb313fecaf472f332065bbf940e687b1ded8297b7ddb520cdaf4d814",
+      "n": 5,
+      "nodes": 56,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          0,
+          1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 5,
+        "requested_mode": "auto",
+        "seed": "f42da179c7bd60737ea3b78cb8e090e33f3dd5c25f33017da7a4cb5584265ba8",
+        "seed_word": "spindle",
+        "translation": [
+          0,
+          0,
+          8
+        ]
+      },
+      "prev_hash": "8ab60fea5dca8171202c23e6d4617100391d52108d16a4549d0835f3ba828845",
+      "raw_bytes": 2642,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "a1a6000487019182e64c79525bb837a341af3fe5f7940009e5483eef69ea50d5",
+        "raw_sha256": "bb4dd4395609fb98159e330d005f6d7c27c6b48098324463d029e68cc268e760",
+        "scene_sha256": "638ae9ebde5242843f6594841cab2d9bf6d8c1c0ea409ebbbcdf79bbc2713630"
+      },
+      "family": "orrery",
+      "hash": "b630c3a0f577c651070a9275116992373acb76e765ea8b7a16d27d7357be1a72",
+      "n": 6,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          -1,
+          1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 6,
+        "requested_mode": "auto",
+        "seed": "865070c4fd5acec194237aae63f498f9a88fefa2c8fc854b88d733a8970d7600",
+        "seed_word": "canopy",
+        "translation": [
+          -8,
+          0,
+          8
+        ]
+      },
+      "prev_hash": "97ab75afcb313fecaf472f332065bbf940e687b1ded8297b7ddb520cdaf4d814",
+      "raw_bytes": 2327,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "b59ac46b7184a446e290050a7194b8f6c03045152f00697abd8d26414f1be5dd",
+        "raw_sha256": "fd64709b2c18684094e79021604e8f31f9d404b2e19eaf797af355ef88db6a82",
+        "scene_sha256": "d0db92098ebba026a762d238bb566b2ccb66367c21ef515319365d475c7e1df9"
+      },
+      "family": "ziggurat",
+      "hash": "64adbab8917f83d41269f4f8cdd37330be3becb70e8073a10e0bad629899873d",
+      "n": 7,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          -1,
+          1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 1,
+        "mode": "augment",
+        "n": 7,
+        "requested_mode": "auto",
+        "seed": "bc686370733e2899481017dd3462bfcebbbc48338a07b45c4bb7073216360b94",
+        "seed_word": "lattice",
+        "translation": [
+          -8,
+          6.6,
+          8
+        ]
+      },
+      "prev_hash": "b630c3a0f577c651070a9275116992373acb76e765ea8b7a16d27d7357be1a72",
+      "raw_bytes": 2488,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "7ca85df87aeb63e2c2014d2a29577ac03723be0a868fc3135cb677c7e9a5b758",
+        "raw_sha256": "867c8536054a4483042671886e586b90de2ae5404235b9c3f430ee6e94f046db",
+        "scene_sha256": "2e8ca4d58cd8fc4df322601fac4f2777196dfe2315dbc0b73c601323d621a71f"
+      },
+      "family": "mycelium",
+      "hash": "a87a885f95a0606520d3da92be6d439235a53efcfff4dc24e39db6408a6265c8",
+      "n": 8,
+      "nodes": 56,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          -1,
+          0
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 8,
+        "requested_mode": "auto",
+        "seed": "5aa3a84276f90b1497491cfffcbc2ee6999113e4c81f9447a6381ea400a12b48",
+        "seed_word": "resonance",
+        "translation": [
+          -8,
+          0,
+          0
+        ]
+      },
+      "prev_hash": "64adbab8917f83d41269f4f8cdd37330be3becb70e8073a10e0bad629899873d",
+      "raw_bytes": 2468,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "d6ea82cd970fe1eab8dd6f523e223afb1cceb4d0429450976c60caf2c2575adf",
+        "raw_sha256": "f5a31af86399968284de61d287982d624503c2d784173a2372761e1d3a2608cc",
+        "scene_sha256": "49a0ec1c094310e308e6214db7a74661b149d330f5f4a5cfdafa43b57a200528"
+      },
+      "family": "ziggurat",
+      "hash": "6776dc1a6c972c043ff8018416706f8ae6314ad02750acede69aab722057c9ed",
+      "n": 9,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          1,
+          1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 1,
+        "mode": "augment",
+        "n": 9,
+        "requested_mode": "auto",
+        "seed": "99c7fec8ded0cf177f3136848d1733f63bc009557cb01d88220291cbb2168bb7",
+        "seed_word": "vessel",
+        "translation": [
+          8,
+          6.6,
+          8
+        ]
+      },
+      "prev_hash": "a87a885f95a0606520d3da92be6d439235a53efcfff4dc24e39db6408a6265c8",
+      "raw_bytes": 2488,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "4bc8603dc9074adcb07d5a3d2044b8f8e9bda564b92500311d937165738576cb",
+        "raw_sha256": "7ea1ec18286ea26501ad6fd531a4e9de841e2517dd2f24e993fa0dfe46ede8fc",
+        "scene_sha256": "de68a0165088737d4b3d2722136af3cee0fdc4865ecb1074a54b2ed02b76570c"
+      },
+      "family": "ziggurat",
+      "hash": "60da3f270ae593f4ea6edbb55948c6b6e03da9792b59f3bb341c6b581bbda594",
+      "n": 10,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          -1,
+          -1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 10,
+        "requested_mode": "auto",
+        "seed": "322044bcb5b4195d0b538428c930fd4585c054b14c7f211688010c81c5a81eae",
+        "seed_word": "turbine",
+        "translation": [
+          -8,
+          0,
+          -8
+        ]
+      },
+      "prev_hash": "6776dc1a6c972c043ff8018416706f8ae6314ad02750acede69aab722057c9ed",
+      "raw_bytes": 2488,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "4e6b1f26b4b444c1ca2013eac85d03da5c8f0dad1774b2cf1ed80ba68d6c2277",
+        "raw_sha256": "6691f416acea86180831d06ce2104f8955dd326abab81dca0106b62f7d2a764b",
+        "scene_sha256": "0283e66521da9536151f2ca763542c728b289b5842063fec91935042c82b4016"
+      },
+      "family": "beacon",
+      "hash": "b7168e09c3a0e869f052aa88b9e736222a00a57fdfae132bf8528e6f884b962d",
+      "n": 11,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          1,
+          1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 2,
+        "mode": "augment",
+        "n": 11,
+        "requested_mode": "auto",
+        "seed": "7d6fcf8b685c866c4fa0146cb007abf50a788ad2971ec363b56c8d4a57de772d",
+        "seed_word": "beacon",
+        "translation": [
+          8,
+          13.2,
+          8
+        ]
+      },
+      "prev_hash": "60da3f270ae593f4ea6edbb55948c6b6e03da9792b59f3bb341c6b581bbda594",
+      "raw_bytes": 2399,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "8cec207c6f3d170025245c7aef018555674d2aaba258828921045660bdbb7d60",
+        "raw_sha256": "5da0ed6eabc9a25f5d9a910cecaa303990b9fa8cec3335c9f9f1a9da0b9dfe5a",
+        "scene_sha256": "841ae2e148ba43e5430e03b3d38c4fc505b1b7cb0984fd5c9faad5494095198a"
+      },
+      "family": "ziggurat",
+      "hash": "9a958f67165837461b22c8eb3fb926bad15cca6cee2c71de0cfbc452abeb32b8",
+      "n": 12,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          0,
+          -1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 12,
+        "requested_mode": "auto",
+        "seed": "33d4b7485e34c2a3c89ae0e3119b6985ddd15414b235c9a094006c7b80eb2bca",
+        "seed_word": "aurora",
+        "translation": [
+          0,
+          0,
+          -8
+        ]
+      },
+      "prev_hash": "b7168e09c3a0e869f052aa88b9e736222a00a57fdfae132bf8528e6f884b962d",
+      "raw_bytes": 2488,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "a297032a05bcf60abfb5502b21a927e0b5b4b184116a3357cb78e2f6e0985414",
+        "raw_sha256": "8f500efbfdeb4cfbee4c63182b915d82079d51112f4f2d5ca210d229555eaa18",
+        "scene_sha256": "83aa98dd97777020c8d4f3ed285bebe8c81fbf3dd1924aab05210fc5c093cca6"
+      },
+      "family": "beacon",
+      "hash": "177f6db561043c47373814154441a34d00a4531f0b4b0417db056a0fb5ba6c27",
+      "n": 13,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          1,
+          -1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 13,
+        "requested_mode": "auto",
+        "seed": "e23187ded2587af72b64c2cc4d7929343e716d707e7fe32dd5a0172f65abdce1",
+        "seed_word": "beacon",
+        "translation": [
+          8,
+          0,
+          -8
+        ]
+      },
+      "prev_hash": "9a958f67165837461b22c8eb3fb926bad15cca6cee2c71de0cfbc452abeb32b8",
+      "raw_bytes": 2399,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "819574931a0ee287509106fc04dfa5957a581245fdcf6e28dc4228b41b80fd11",
+        "raw_sha256": "a0512b217983d9c9e92cbd980b3d1da98c74ff2472e79bbc65a00ba0bf27038f",
+        "scene_sha256": "09cc689d9628b79a15ece79c2c30b805f0e42280dd91c61e857afd957dba5b0a"
+      },
+      "family": "beacon",
+      "hash": "f7175ef6969a6516c8ab25b598b41820b0ec2e85fa13ba196236e6c375795617",
+      "n": 14,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          1,
+          0
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 1,
+        "mode": "augment",
+        "n": 14,
+        "requested_mode": "auto",
+        "seed": "9606953ecd609ff1483259fc38ad9a3293eb3edb6dbf9e2f7b6c38f3946efc86",
+        "seed_word": "beacon",
+        "translation": [
+          8,
+          6.6,
+          0
+        ]
+      },
+      "prev_hash": "177f6db561043c47373814154441a34d00a4531f0b4b0417db056a0fb5ba6c27",
+      "raw_bytes": 2399,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "335bef740f8635caede57b0f311a83cdddaad7770bc6ddd943c2628ccfc856c6",
+        "raw_sha256": "957a6500aae94abc570a0f05a685cd3de3b96b6f4bbfb9e276c71e367b4298a9",
+        "scene_sha256": "518d3b0d9f3212a6eeb0921da40846934c11b8c9e07feb7031461f71d9b88751"
+      },
+      "family": "mycelium",
+      "hash": "742f3c20b54de00ab3fde1b3a560a97b7c7aaa682b970587752f793299065d45",
+      "n": 15,
+      "nodes": 56,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          0,
+          1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 1,
+        "mode": "augment",
+        "n": 15,
+        "requested_mode": "auto",
+        "seed": "35808dbab78c3791795a3282a17e48a6534eec9dc64e90f388ab85daacc1cdc2",
+        "seed_word": "astrolabe",
+        "translation": [
+          0,
+          6.6,
+          8
+        ]
+      },
+      "prev_hash": "f7175ef6969a6516c8ab25b598b41820b0ec2e85fa13ba196236e6c375795617",
+      "raw_bytes": 2468,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "f4dbde29cbe409aa9c2d4bd0dd8eae441922cf7bb440a259706e3d521be6c571",
+        "raw_sha256": "d77a9c10d2b046a2d676194a35c3deee23774a677d9fc816d5f00b1f55f81e6c",
+        "scene_sha256": "ccd43a5437e486469532e87d6478514025b769bb95cd35e9bd74fefc98ef83ad"
+      },
+      "family": "ziggurat",
+      "hash": "7f22167e86d11c143cf42a1d6c1ee43d281f3e44a5910d8e0d56320b0efc2ced",
+      "n": 16,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          -1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 16,
+        "requested_mode": "auto",
+        "seed": "5adf74711364c1c2a3c2250ab68f68ec4b59f8139e17a1786d18d292771ad359",
+        "seed_word": "ziggurat",
+        "translation": [
+          16,
+          0,
+          -8
+        ]
+      },
+      "prev_hash": "742f3c20b54de00ab3fde1b3a560a97b7c7aaa682b970587752f793299065d45",
+      "raw_bytes": 2482,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "96c7a3b93b4223465be777a58bdd8c052f373ec88e4faf33eea397525f52f1a2",
+        "raw_sha256": "f2d6a64615f2be56dd5b577325f06799ce4eee01e14877583929343bb423452c",
+        "scene_sha256": "a00bbd763c055a114dc1af7f3c5da7b54f3db425cbf7726715395a9dcc62397b"
+      },
+      "family": "mycelium",
+      "hash": "9bf1031fc0b44453b30339db0cbfb5129d45593bf281bdfac6cc32d69db26a6c",
+      "n": 17,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          0
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 17,
+        "requested_mode": "auto",
+        "seed": "975133feec22fed5f8af4a41e8698dd0886abaa1eaac10198e24c605d2e3c397",
+        "seed_word": "mycelium",
+        "translation": [
+          16,
+          0,
+          0
+        ]
+      },
+      "prev_hash": "7f22167e86d11c143cf42a1d6c1ee43d281f3e44a5910d8e0d56320b0efc2ced",
+      "raw_bytes": 2459,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "8e689a425682b46adfaa14bc6448903361420440c13eb6cfb911cf98f03153fc",
+        "raw_sha256": "907805c08e14fd7f24c951e9b326d4485d1375bd3afaa603f6c7c9fa234d8d3a",
+        "scene_sha256": "f815ea182dc4c5711c69084b3755be3e00dd8284baf3d35bdb7e57dbdc10dea3"
+      },
+      "family": "beacon",
+      "hash": "9416ab1359cf75a8397d482da4a0e7569c2624abacf5d85ec11acd374dac053c",
+      "n": 18,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 18,
+        "requested_mode": "auto",
+        "seed": "72baf5d4b04d25c7735784fcc1dc91a45434bf616b0c062f92e9780d52038aaf",
+        "seed_word": "beacon",
+        "translation": [
+          16,
+          0,
+          8
+        ]
+      },
+      "prev_hash": "9bf1031fc0b44453b30339db0cbfb5129d45593bf281bdfac6cc32d69db26a6c",
+      "raw_bytes": 2393,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "d051d7b711f822581b9c9678dfad703964711dbbb027d181e4ca313703a3bf76",
+        "raw_sha256": "3d2b81c8235d15d4dcaeca2348322a88f237e6ccceb31dd82b67624c826b5afb",
+        "scene_sha256": "90436387f45b56c043362ca1a32e8e7daa1fb2b52d6ff2b86cb04225cde35f93"
+      },
+      "family": "coral",
+      "hash": "c23c2d1491a1e3aeb0555f2109fe86a3424c04410c7b052de2f9420a5c67acd9",
+      "n": 19,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 19,
+        "requested_mode": "auto",
+        "seed": "eaad0bbdd1f70f16263990192aa07870a1c83f4c17c1046a70ac66ef179f33c2",
+        "seed_word": "lotus",
+        "translation": [
+          16,
+          0,
+          16
+        ]
+      },
+      "prev_hash": "9416ab1359cf75a8397d482da4a0e7569c2624abacf5d85ec11acd374dac053c",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "d2d11645501672a4e8096050de5f94031db2674e9c8003c7ea9b384f4716f1c1",
+        "raw_sha256": "26cd5fb2daaa2e65668504860d8e5a5614ae20868c5ef5e6e4b454e916ece3da",
+        "scene_sha256": "e1329f3f68964d868ba35fc6d55b1832e34d8abd4a3ac0694959c31927dcbdaf"
+      },
+      "family": "ziggurat",
+      "hash": "08758d48e1646a0d44eb3119543498273a04d8b35340ab1e5650d584a7b231e2",
+      "n": 20,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          -1,
+          -1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 0,
+        "level": 1,
+        "mode": "augment",
+        "n": 20,
+        "requested_mode": "auto",
+        "seed": "5515ebeb88676dc3558c3e4235cb8a9a86e2eb8895bffd08d768d37b576d7f8c",
+        "seed_word": "ziggurat",
+        "translation": [
+          -8,
+          6.6,
+          -8
+        ]
+      },
+      "prev_hash": "c23c2d1491a1e3aeb0555f2109fe86a3424c04410c7b052de2f9420a5c67acd9",
+      "raw_bytes": 2485,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "582c8c482c61ff4646770fadf4895220e4e620c2d832944bd69e58a7bd2a339c",
+        "raw_sha256": "4b5b34d5c0f53557cb25071e265ca4fe04669f91fcc41cae4218dd42db02b991",
+        "scene_sha256": "5fabaa116156f524b6ca0dfe30022bb50d54e434072f4094698afb6a247c82a2"
+      },
+      "family": "coral",
+      "hash": "952fe614e6d464d39608764f104a44e94bab8fa4b526cbfa9c281b381b46d0f1",
+      "n": 21,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          1,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 21,
+        "requested_mode": "auto",
+        "seed": "c785b2f180eb6a1f425dbaa278ffd156d9545370735aa19b026bc0a383a939bd",
+        "seed_word": "seed",
+        "translation": [
+          8,
+          0,
+          16
+        ]
+      },
+      "prev_hash": "08758d48e1646a0d44eb3119543498273a04d8b35340ab1e5650d584a7b231e2",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "2d137e75c5e9a489d6ec89197dd5a4dbe3b445fc33eb939fc744b4b1e9bc2f8b",
+        "raw_sha256": "06aade259d0f2356f420a57368f26eb436af2deaee496a4b3c470b495461bc5a",
+        "scene_sha256": "258c4b4e9f8746a3f3d6f7bae94f22406758af6215141d2dab94219f3f198520"
+      },
+      "family": "ziggurat",
+      "hash": "71b3edc733f95239abbd3b11bd033dc9bca1674a4c9cbadf875ee80ee2ae1c1f",
+      "n": 22,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          0,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 22,
+        "requested_mode": "auto",
+        "seed": "64147ac063916ee6d8239a0c9c2cf2ddb53216557f22bded7e5078c6c5458c58",
+        "seed_word": "spindle",
+        "translation": [
+          0,
+          0,
+          16
+        ]
+      },
+      "prev_hash": "952fe614e6d464d39608764f104a44e94bab8fa4b526cbfa9c281b381b46d0f1",
+      "raw_bytes": 2479,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "9eb9335bd30acc28a3318c6dc28aed07d868bc4db8df18807d20ecb9ffd46573",
+        "raw_sha256": "42b768234f35a51f3092a9c8b0db52df91d2fcc0d8516da60576415ddbd9a41b",
+        "scene_sha256": "924390a1815dd32436b4bc9d51b6521ad9c9d8a1730a41d851427ec57e542053"
+      },
+      "family": "mycelium",
+      "hash": "60f2660f7a79a938a6a1a7e13bff954437f766190da1825de3815af9c26f59b3",
+      "n": 23,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 1,
+        "mode": "augment",
+        "n": 23,
+        "requested_mode": "auto",
+        "seed": "66366e0267e217570ab568a0259a929630bff09913d197fbc05dd3f3905b8072",
+        "seed_word": "turbine",
+        "translation": [
+          16,
+          6.6,
+          8
+        ]
+      },
+      "prev_hash": "71b3edc733f95239abbd3b11bd033dc9bca1674a4c9cbadf875ee80ee2ae1c1f",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "faa50e8307b9778b7b586a37559c7376c9557add4cc7a4bd6dabbd0d89de0741",
+        "raw_sha256": "648350bada1c6fa4f48884806e74fb32e020ad98356022df55bca78926dc7ca6",
+        "scene_sha256": "c2842d5d4717c80515f0acd4ccb8741a2091152280d1f036199d4561278a2699"
+      },
+      "family": "orrery",
+      "hash": "f578bbf712f2f4629b36770d958d55ec15b307b3870fe32f610e476262ba52a3",
+      "n": 24,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -1,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 24,
+        "requested_mode": "auto",
+        "seed": "769c7f94b4c42aa3ccebe464742e1e05c702cb2b378695c642e24d2115b2a7b9",
+        "seed_word": "vessel",
+        "translation": [
+          -8,
+          0,
+          16
+        ]
+      },
+      "prev_hash": "60f2660f7a79a938a6a1a7e13bff954437f766190da1825de3815af9c26f59b3",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "75d7213fe96002b01b701ea50c851f6f4cb21a8b35fedc761e936fb2488171c9",
+        "raw_sha256": "87b7642add10ee99de68575c2a9c5203edff44223938f470ec0f99e1e360943d",
+        "scene_sha256": "4e6257824874f2b355946738b29db17d30dd78bf3ef3930aadd84de8b3ceb39b"
+      },
+      "family": "orrery",
+      "hash": "2a0b484fa71917bdbe0fc0f29b0a2c8fb702065b3f3efcaf6f074b37ecc5a7fb",
+      "n": 25,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 25,
+        "requested_mode": "auto",
+        "seed": "75f179883f45f0c2223051345ba89ba5855b230f61b0bc167bd3f1f57844cf88",
+        "seed_word": "vessel",
+        "translation": [
+          -16,
+          0,
+          16
+        ]
+      },
+      "prev_hash": "f578bbf712f2f4629b36770d958d55ec15b307b3870fe32f610e476262ba52a3",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "4a4101a4b8ae867a11da6fb5baeed1fbf27c14bc43f7b98032fcb149cb9c6b1a",
+        "raw_sha256": "7f496d07b4ae3addb5c693bacb8872c5cd5730196f0c7d24136d3c80ebbfa58b",
+        "scene_sha256": "d727eb5944dc709bb00d1f077ee44c15c9e585a52100f6de7c9f8c83a9e015f1"
+      },
+      "family": "mycelium",
+      "hash": "5ac00470123e82f1a70467b1d2aa44d49a24d6465998d52b51858b96ea20b083",
+      "n": 26,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 26,
+        "requested_mode": "auto",
+        "seed": "b23457fe86f614500f6e61a67df5d76a78bf2fbe1a7b808d015e367e30cd76db",
+        "seed_word": "spire",
+        "translation": [
+          -16,
+          0,
+          8
+        ]
+      },
+      "prev_hash": "2a0b484fa71917bdbe0fc0f29b0a2c8fb702065b3f3efcaf6f074b37ecc5a7fb",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "920646f1918068630930faa4ef0353c2a7b9e36455028feec9ed4d8bd23ea32e",
+        "raw_sha256": "dcab14f08a28cfac29e696a757e1426bbca6d0831856cfc0e7491f5413fbc39c",
+        "scene_sha256": "ca64541efc46f600e820469c457e21c3bd89db48f49919f30ed55e743ad3da77"
+      },
+      "family": "mycelium",
+      "hash": "089720addf5fc2a3d2003bc7c08ce05f23c695cbf20c01a70b0f7c449f0e120a",
+      "n": 27,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          0
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 27,
+        "requested_mode": "auto",
+        "seed": "319ab384b7ffe60ad6345e5740b1397bc7672205d45f6a9666b64408ffe59b50",
+        "seed_word": "resonance",
+        "translation": [
+          -16,
+          0,
+          0
+        ]
+      },
+      "prev_hash": "5ac00470123e82f1a70467b1d2aa44d49a24d6465998d52b51858b96ea20b083",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "be7d3c112bc55071b77a40c636def928041ca13f19d964583d20bd730e719d0d",
+        "raw_sha256": "93e3dd8f3682c0b03f3c731fabebed71c8a35fc2952550c8b7d4f26d0cd48919",
+        "scene_sha256": "e0851d4a68fb18eb15ea6193f0147ee8124d865abf54b15df8f6792d8ddd2af3"
+      },
+      "family": "orrery",
+      "hash": "53fb2746bea85dd2805bc30487ebdce101e868e76b13665ed3fbe6ca0afa1410",
+      "n": 28,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          0
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 1,
+        "mode": "augment",
+        "n": 28,
+        "requested_mode": "auto",
+        "seed": "6c5a35b80e8112e1dcaf8d7ecf5b4171b53025dce18a81c59ed3ac9b453cdda7",
+        "seed_word": "canopy",
+        "translation": [
+          16,
+          6.6,
+          0
+        ]
+      },
+      "prev_hash": "089720addf5fc2a3d2003bc7c08ce05f23c695cbf20c01a70b0f7c449f0e120a",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "93cb1098b1c1f63e8ac54fca0b03ab049e00c29d7573632733b88b9795534b8c",
+        "raw_sha256": "b2063e1e2713ef39965078368eeffd2aeb184adf0a6d93d1432dcad235cad1c3",
+        "scene_sha256": "40370cbd83e012cccef3d7befbde062c4eecfe4ca439250fe620802b1cf3a167"
+      },
+      "family": "orrery",
+      "hash": "97bc9221abd1e404c3036da3048cc51c2cbf1d6a16526669cef9de4b052c602e",
+      "n": 29,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          0,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 1,
+        "mode": "augment",
+        "n": 29,
+        "requested_mode": "auto",
+        "seed": "dafff2cc27822589ffa7cf57fa4d54d31f0c949049c8f0fd5b3f1a3c4cbe6f94",
+        "seed_word": "orbit",
+        "translation": [
+          0,
+          6.6,
+          16
+        ]
+      },
+      "prev_hash": "53fb2746bea85dd2805bc30487ebdce101e868e76b13665ed3fbe6ca0afa1410",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "8d8f1da1c98113b7167b96cb229af775373569cbbd7b6f1c149bd1cc70790992",
+        "raw_sha256": "def2674a79e46f0cb0e82ed579a79878d2172ad3185282e6f9dc0ec971820cb1",
+        "scene_sha256": "bc3309922c9e9c1188739ef323e9cb38119a31d43b25b0ffd0903eb0b4c7f303"
+      },
+      "family": "mycelium",
+      "hash": "fce6672dfd9598fba14011ea4dba8231d2e9f2433488ba910fd9c5b5f50041dd",
+      "n": 30,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          -1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 1,
+        "mode": "augment",
+        "n": 30,
+        "requested_mode": "auto",
+        "seed": "392d5fb0daef306a10cd7c1042122c5fde7c5a0a963a9a43532865cda8397308",
+        "seed_word": "cairn",
+        "translation": [
+          16,
+          6.6,
+          -8
+        ]
+      },
+      "prev_hash": "97bc9221abd1e404c3036da3048cc51c2cbf1d6a16526669cef9de4b052c602e",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "a37289f6626d67a77020a862f7373a9c1be4abc6ba815fb356ef7ba36ed866a0",
+        "raw_sha256": "dfc7fff2acecce9f5ae99421a0b7bd2cefa9f94a3694b33800704ad99c9c289a",
+        "scene_sha256": "4e4da34f1825f036804c1f8d11af40cfbb3ccfbd10e2b9836897e0c159c6f650"
+      },
+      "family": "coral",
+      "hash": "9054555cc40825447d83e333fae290250f759fc2d172219e3c5c5e513c4c0d7a",
+      "n": 31,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          -1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 31,
+        "requested_mode": "auto",
+        "seed": "9ca205b9cd6e27ce67c5a7dad7a364f42357a70b85e8ed906a3a96ac56c4e1d9",
+        "seed_word": "astrolabe",
+        "translation": [
+          -16,
+          0,
+          -8
+        ]
+      },
+      "prev_hash": "fce6672dfd9598fba14011ea4dba8231d2e9f2433488ba910fd9c5b5f50041dd",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "9cf06c6548e1dcace2699d97d9c9315da1f209a2d6ceb960cf0a183b2a1b8872",
+        "raw_sha256": "b59b347d536f62e419eea4947bb3d354b31c5600901b1a4834501dc0ceacb5f4",
+        "scene_sha256": "eba128f1ab310df8e9eeeef508d34c737d32419afd4d0ba7b6d82f024f9152d2"
+      },
+      "family": "gyroscope",
+      "hash": "6c1ff755112a17514f8842e60eb8fa33724915c287ada6d7955d1374b69b4aa3",
+      "n": 32,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          -2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 0,
+        "level": 0,
+        "mode": "generate",
+        "n": 32,
+        "requested_mode": "auto",
+        "seed": "808881dca622b59a439414312b8f6e3a99ec724ce07ca296fe6c9d74ea24212d",
+        "seed_word": "gyroscope",
+        "translation": [
+          -16,
+          0,
+          -16
+        ]
+      },
+      "prev_hash": "9054555cc40825447d83e333fae290250f759fc2d172219e3c5c5e513c4c0d7a",
+      "raw_bytes": 2308,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "4117f20c1866f544cc81048326fca33ef1fa8530014482ff54cb6534ae2fe2d6",
+        "raw_sha256": "4d8def55ac3161f60d641129a9184eef4422a337d8caee48092a0d978dc1054c",
+        "scene_sha256": "bc4dc980c5d1795eecfb433a66183e382137d0e81222c20aad6273186dd9709f"
+      },
+      "family": "coral",
+      "hash": "0c8bd8f6ec5a477e5b30810189358b575c812e5d335ac298beff4cc8392d6203",
+      "n": 33,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 1,
+        "mode": "augment",
+        "n": 33,
+        "requested_mode": "auto",
+        "seed": "8c4f133ee9bd24df970464365e42d2fd2606de9827848d00077c67b883a116f4",
+        "seed_word": "coral",
+        "translation": [
+          16,
+          6.6,
+          16
+        ]
+      },
+      "prev_hash": "6c1ff755112a17514f8842e60eb8fa33724915c287ada6d7955d1374b69b4aa3",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "61135c94b4ba4f5725a6a6755bf9377127872b64a9e854cd7a3d9fd27697f73c",
+        "raw_sha256": "972fe1f3f45a808551e1b494f519195b8ac96a45c051571f79604bf9503e5a53",
+        "scene_sha256": "da44c9ac51df21eee79e76d315949a86bfda02d06185e28a1c1a401de36a98bc"
+      },
+      "family": "coral",
+      "hash": "20c3ca5fd50db8186a65a26e513d9acff2ad2f6da8d61a71132afd0faef03b34",
+      "n": 34,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -1,
+          -2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 34,
+        "requested_mode": "auto",
+        "seed": "6b444389c4f441b875353d9ba16f2c1ae99175772ee257e275f38bcad3b017a9",
+        "seed_word": "reef",
+        "translation": [
+          -8,
+          0,
+          -16
+        ]
+      },
+      "prev_hash": "0c8bd8f6ec5a477e5b30810189358b575c812e5d335ac298beff4cc8392d6203",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "4cfdac3dca4e99081d161b2c7e24dcfe04396dc871bd45c247e4fdca3bb9c86f",
+        "raw_sha256": "c4b1a53fc998e419f36276d0e8b9cbe829b5db3ed8baa5cbb2a6ecfaaf47ed1e",
+        "scene_sha256": "4012f11c84870b76eb3fa7705f94881694b48a1566c50c674eca1331e2405b9d"
+      },
+      "family": "gyroscope",
+      "hash": "74b17ea10a1522799b5f1891ef9bb661eeaf79ccffa9d7480de044b8e979de12",
+      "n": 35,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          0,
+          -2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 35,
+        "requested_mode": "auto",
+        "seed": "2d3619d3110237cd5bb6fbccffc63af2762657307b9b164ed6a7b7aa16b87723",
+        "seed_word": "vessel",
+        "translation": [
+          0,
+          0,
+          -16
+        ]
+      },
+      "prev_hash": "20c3ca5fd50db8186a65a26e513d9acff2ad2f6da8d61a71132afd0faef03b34",
+      "raw_bytes": 2308,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "d3a493c3758fee4b1a6ba93ca772e25c7f1a393a79d830670c59165f7d8a5309",
+        "raw_sha256": "3422a0933ecd7647e44522959dfafd32cf2b17d60e71000655c21697a7eee8e7",
+        "scene_sha256": "a0be251e13aa7a94a4456305c5790daab40381ad77e2ae083ed784efe5c8bbb1"
+      },
+      "family": "ziggurat",
+      "hash": "8be14aa188481c12be485943b646944b97342ecd98ecdd54a1c68d7c15c07cbe",
+      "n": 36,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          1,
+          0
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 1,
+        "level": 2,
+        "mode": "augment",
+        "n": 36,
+        "requested_mode": "auto",
+        "seed": "ab063ffeca7171f6af79e52710d437b0dbd52dcd1a84ffdf8ded9369e33da999",
+        "seed_word": "resonance",
+        "translation": [
+          8,
+          13.2,
+          0
+        ]
+      },
+      "prev_hash": "74b17ea10a1522799b5f1891ef9bb661eeaf79ccffa9d7480de044b8e979de12",
+      "raw_bytes": 2488,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "94236d6598e84da05fffddf0f77a5afe19111284a224c5ffe7d5e06260cd687b",
+        "raw_sha256": "d5e06807117fa2ea25ceb8464a9d43ade63c907fb9b764bd80186e22671e148f",
+        "scene_sha256": "9908fc8eebdc99d9a47f3f169b5461d4b5199508f8996979286909f19cde5094"
+      },
+      "family": "gyroscope",
+      "hash": "572805f37a6f74f9b5f07962069269652041f32199f2465d86bcaaec78667a1f",
+      "n": 37,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          1,
+          -2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 37,
+        "requested_mode": "auto",
+        "seed": "8bdca86348187202af7f15001be8377fa8fdadd81753f3cb1cb4b11aec1c1d55",
+        "seed_word": "turbine",
+        "translation": [
+          8,
+          0,
+          -16
+        ]
+      },
+      "prev_hash": "8be14aa188481c12be485943b646944b97342ecd98ecdd54a1c68d7c15c07cbe",
+      "raw_bytes": 2308,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "b4034da3483767baaee345b6ecabbc1320f221a32e5ec3224e9a8615011e2243",
+        "raw_sha256": "f429d2da0f11d5ad01a9639e84e50168fc032f50965590ec501ee2ef8cf18ba7",
+        "scene_sha256": "0e7862fb15f4ef9f11c64efba81ecbce1fc334b26b7391f45f1041a282e8a82f"
+      },
+      "family": "ziggurat",
+      "hash": "2e314e9a75a55cba4103a0e10570c5037556e6c5cfa519deb23ca43e0e075390",
+      "n": 38,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          -2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 38,
+        "requested_mode": "auto",
+        "seed": "1e3e84ae13a0ba34185507e0c7d51696d50ad5bbaf618c3069feee096d925cdf",
+        "seed_word": "cairn",
+        "translation": [
+          16,
+          0,
+          -16
+        ]
+      },
+      "prev_hash": "572805f37a6f74f9b5f07962069269652041f32199f2465d86bcaaec78667a1f",
+      "raw_bytes": 2482,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "e06eec892b0dc7c6b39f9a6d2cd8312b82c93fe19b44d5ea7e17bcedd40d8372",
+        "raw_sha256": "4e785a595a061b030d7ebf41febadb58c32e3e28e10dbead6584f1f8e6f551ff",
+        "scene_sha256": "2cd3c452ec380941d009c61a7d6051742182ddd3433724569eae61639214812e"
+      },
+      "family": "orrery",
+      "hash": "0299116312420ac6b8d030863448dbe72b9573233156cbe1e1af63d7844b6f8c",
+      "n": 39,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          -2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 39,
+        "requested_mode": "auto",
+        "seed": "e9a4ee880b2f1edc507d05c041d03ac77d3774c099e4aae22a3e9d3efaf2b62c",
+        "seed_word": "orrery",
+        "translation": [
+          24,
+          0,
+          -16
+        ]
+      },
+      "prev_hash": "2e314e9a75a55cba4103a0e10570c5037556e6c5cfa519deb23ca43e0e075390",
+      "raw_bytes": 2318,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "ff7962dd64f0c6064396005021984d2a14e4fa98f144cc67a85b707fee9c90b1",
+        "raw_sha256": "eece5e65acfc27973167a6a79ef0265945bcfb6fcc794c333d2be011870fc0ff",
+        "scene_sha256": "01a3944f312c2e0d16e2e81e3ec5002e38e286615799a6dce2b9e77bd2f6f007"
+      },
+      "family": "coral",
+      "hash": "379d8f178290304086b60a04f5afaac1dc092da42a545669f2b4b86c35d884cf",
+      "n": 40,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          -1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 40,
+        "requested_mode": "auto",
+        "seed": "59b006bd428774343c76a9be80871d2d6c27b43d1ca967c70bb48f1d5de8d93d",
+        "seed_word": "coral",
+        "translation": [
+          24,
+          0,
+          -8
+        ]
+      },
+      "prev_hash": "0299116312420ac6b8d030863448dbe72b9573233156cbe1e1af63d7844b6f8c",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "8f897551524e8192fb1b8a1881b0aaf180c60a74583602494701cb21615914bd",
+        "raw_sha256": "09bea0071ce5a58e710bcf19147082961f3302648c8f332a308e63dd3e66735b",
+        "scene_sha256": "266a16a991e2ac7a4a0159e87d756a86b87e7137a3978f0d082a53b411c65083"
+      },
+      "family": "orrery",
+      "hash": "7416fa3c1e6804a858b749461ba490629974ffd479d943b4d828d15832bd745d",
+      "n": 41,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          0
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 41,
+        "requested_mode": "auto",
+        "seed": "60c7e6c03be92d08271b513d17740d14923984ec9f92191b023687827cea92e6",
+        "seed_word": "crystal",
+        "translation": [
+          24,
+          0,
+          0
+        ]
+      },
+      "prev_hash": "379d8f178290304086b60a04f5afaac1dc092da42a545669f2b4b86c35d884cf",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "cdb89b38a7941652b254decd29548c28fe0de7b714148bc3ea8708fde6ae9187",
+        "raw_sha256": "f17afea5e98f2128ffa0135c5d76b247196aa523761e91d092509c7bfd398b8f",
+        "scene_sha256": "936001d0756bd42cde008179a32916dc67fd7017050af9724028bf65658e1d1d"
+      },
+      "family": "beacon",
+      "hash": "7bc8a06d814b433f5acfdda637e9dc07534fd7fa342843a057bc609eb2c87585",
+      "n": 42,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 42,
+        "requested_mode": "auto",
+        "seed": "74a7807b646227a116fa5ce9967eed16de30a8d159e8053b30ebe6d859fe2001",
+        "seed_word": "lotus",
+        "translation": [
+          24,
+          0,
+          8
+        ]
+      },
+      "prev_hash": "7416fa3c1e6804a858b749461ba490629974ffd479d943b4d828d15832bd745d",
+      "raw_bytes": 2393,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "029814b99a52bcd2ba9d66da6afc247ecea8db2f59774e054278908682faf7ef",
+        "raw_sha256": "a8b7c661e549a4963925c0dbc243a15c2e11eed2e1ab2b7b0fccac3d65c06589",
+        "scene_sha256": "400b35952381c532805b82889cc7ef88e8041bfe933f4b0d0823b60df1af9f19"
+      },
+      "family": "beacon",
+      "hash": "5b358aa16702edfa7585de2e390a094c68062297261abe4a7daaf5a4f0530c4b",
+      "n": 43,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 43,
+        "requested_mode": "auto",
+        "seed": "8d8f97158b6c1ec47190427aad11c8017e5bfe579cfa306facaba67c055c1a18",
+        "seed_word": "astrolabe",
+        "translation": [
+          24,
+          0,
+          16
+        ]
+      },
+      "prev_hash": "7bc8a06d814b433f5acfdda637e9dc07534fd7fa342843a057bc609eb2c87585",
+      "raw_bytes": 2393,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "6b278dbc146511bce36d7b98a2b8771026b87679ac719b7e60f095a0351db332",
+        "raw_sha256": "97ce673eeb77288cc804304d0bf3e356f0928314685832ed3fc238da78d355f9",
+        "scene_sha256": "87f24b3003e9fa34fb098b2c1fceb9a655fc98f63eef6af7b3f4aa65165ccdda"
+      },
+      "family": "coral",
+      "hash": "684da00270a4e3f2b90c7396f4f538045a22f168c4a3a9a7437aebdde62a8871",
+      "n": 44,
+      "nodes": 56,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          0,
+          1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 1,
+        "level": 2,
+        "mode": "augment",
+        "n": 44,
+        "requested_mode": "auto",
+        "seed": "64e7c47b57a67107fb47e4b36bb8a31f7d39c0363dc4fb26f6ce0d832ab15c5f",
+        "seed_word": "tide",
+        "translation": [
+          0,
+          13.2,
+          8
+        ]
+      },
+      "prev_hash": "5b358aa16702edfa7585de2e390a094c68062297261abe4a7daaf5a4f0530c4b",
+      "raw_bytes": 2642,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "9d9a207d9624f228e66b5b8950f0066aa2ec3c149bf7040e88ea94b46c5bf8a5",
+        "raw_sha256": "728561c3a5fa4c9f8b9269b806334e0f41fa711423bbec30d2802e667fd1d077",
+        "scene_sha256": "71ccabbc5355b266f1876dcf81c0db9136c992dab6e7d902105c597e6d8aac5d"
+      },
+      "family": "orrery",
+      "hash": "c671e128e941a978877b384c3d503d4d631511e3f91bc460c6787d5a635dc330",
+      "n": 45,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          0,
+          1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 1,
+        "level": 3,
+        "mode": "augment",
+        "n": 45,
+        "requested_mode": "auto",
+        "seed": "ec605dc4ec296a3e652df83d36794946702d3a677362f8bd2087a2dbc9681a69",
+        "seed_word": "lattice",
+        "translation": [
+          0,
+          19.799999999999997,
+          8
+        ]
+      },
+      "prev_hash": "684da00270a4e3f2b90c7396f4f538045a22f168c4a3a9a7437aebdde62a8871",
+      "raw_bytes": 2327,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "8c286b7b298cb509e2bb9d925a7fa486732ea4c7a675f255e3cca43c5c3488c0",
+        "raw_sha256": "9b1d968202a1a41ff93db72fb3f6cd66c5fea39b88176feb56d32d0c9b28ab9c",
+        "scene_sha256": "f0fd7066b0dfdfdf46a071f4293a22ce211e42e9b3a08b3b7b03b9a5fa624ff9"
+      },
+      "family": "orrery",
+      "hash": "246cb4c517f5cba2fdaf29fcec897f47a761e8b9afcd148def4282b02b8d1a25",
+      "n": 46,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 2,
+        "mode": "augment",
+        "n": 46,
+        "requested_mode": "auto",
+        "seed": "d288a0cadfe8ecc5f839f0cb285987f75576794daf16819da1e6a9c68fff5a44",
+        "seed_word": "aurora",
+        "translation": [
+          16,
+          13.2,
+          8
+        ]
+      },
+      "prev_hash": "c671e128e941a978877b384c3d503d4d631511e3f91bc460c6787d5a635dc330",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "b09b422655e926ea43c194bcc0bbad763de414c5ed13918734076c9083a4a666",
+        "raw_sha256": "bf618f07fb1994cb62ca2648d77b9b769b25c268f5c64e0fa62c29818ddb3a12",
+        "scene_sha256": "c41cf090ec4c4a47f83566ae54e35f42e0050da98aab5105fe7153458244a958"
+      },
+      "family": "gyroscope",
+      "hash": "54a8aadeeb412320c58e8e969fb7548eb52eda0b44b8cc36abc6da66d9a4f6a7",
+      "n": 47,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 2,
+        "mode": "augment",
+        "n": 47,
+        "requested_mode": "auto",
+        "seed": "b67a1f51a7bc779c368e9fcf627b74b95c89f040448b2d6d553ef5ee033ca94a",
+        "seed_word": "helix",
+        "translation": [
+          16,
+          13.2,
+          16
+        ]
+      },
+      "prev_hash": "246cb4c517f5cba2fdaf29fcec897f47a761e8b9afcd148def4282b02b8d1a25",
+      "raw_bytes": 2308,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "671367add58435f4bcf32db3e028eb4244b3df0583524ae1bc387816d330b073",
+        "raw_sha256": "f0cf4bfcdd2bb06425d018301fe35b61de9265f9cbff5287c72063e04305fdee",
+        "scene_sha256": "5b7182a1dd7a6df62ed080e6285b57872f12a22bdbb53ef810b62611b0e173cb"
+      },
+      "family": "mycelium",
+      "hash": "85654ebb5082797b5459ffef68e8fddbf036cc540a623d9576e83bf244aee090",
+      "n": 48,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          1,
+          -2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 1,
+        "mode": "augment",
+        "n": 48,
+        "requested_mode": "auto",
+        "seed": "82d75a96db3b805938b5b6b9b9f200201dbb37d4986589c2d9ec377052d2c575",
+        "seed_word": "mycelium",
+        "translation": [
+          8,
+          6.6,
+          -16
+        ]
+      },
+      "prev_hash": "54a8aadeeb412320c58e8e969fb7548eb52eda0b44b8cc36abc6da66d9a4f6a7",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "31fa75712e5d2e7d46f74d6bdd00332359f46e6a5ef8b61305d21d030b38f0f6",
+        "raw_sha256": "dd19968066b99230e9987e1a7636fbbf187f849871285911d758ae58ca7f40aa",
+        "scene_sha256": "15e4006ab4a3a5b4f8d392e8517849467847264830ecf5d4a0009f793feb0b8b"
+      },
+      "family": "coral",
+      "hash": "3babc4d94ca9379ba25d89a0024ec2487beff638fb68a4c5e7e4592d342ea1f1",
+      "n": 49,
+      "nodes": 56,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          0,
+          1
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 1,
+        "level": 4,
+        "mode": "augment",
+        "n": 49,
+        "requested_mode": "auto",
+        "seed": "6c26e045bb4a23d33b655cf7da275e4b9be9ab3c713245b8e219b187b94c3668",
+        "seed_word": "helix",
+        "translation": [
+          0,
+          26.4,
+          8
+        ]
+      },
+      "prev_hash": "85654ebb5082797b5459ffef68e8fddbf036cc540a623d9576e83bf244aee090",
+      "raw_bytes": 2642,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "daa334fe43354f7bf5198676101a8a7e2804d4bc8c6c765d1207cfddd85e3747",
+        "raw_sha256": "207150e96e4c6839e53a6533b5a9ea80bdee21fb2f7075144c6f1c665ec5d1c6",
+        "scene_sha256": "9b04daa73e362ed57fd7d4c342c8edde68be3b88c584cae79d682ee89f509b0f"
+      },
+      "family": "coral",
+      "hash": "9d891e6812d0c1488ae0bb8cb4fc752b0ea84fcdac08d2668e54c8af6db94694",
+      "n": 50,
+      "nodes": 56,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          1,
+          0
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 1,
+        "level": 3,
+        "mode": "augment",
+        "n": 50,
+        "requested_mode": "auto",
+        "seed": "56072adfe0423e2a6f06cc21aab2c582eecd4556207dfab5ce8f0b1c318e9ad3",
+        "seed_word": "lotus",
+        "translation": [
+          8,
+          19.799999999999997,
+          0
+        ]
+      },
+      "prev_hash": "3babc4d94ca9379ba25d89a0024ec2487beff638fb68a4c5e7e4592d342ea1f1",
+      "raw_bytes": 2642,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "c8beb723dc37bb67da2cee659c44929fc6b4fab6dee83d72e58f73254ed12a89",
+        "raw_sha256": "38857eee6e686695d2c2f482ab6638570dcddebbc50943468e2f2ff63345d53a",
+        "scene_sha256": "8bb88a5c832432b8a234a0834d79f5c5ad147b6f8e7503398fbb71d0a17a75c3"
+      },
+      "family": "mycelium",
+      "hash": "ffc10f07c3b2fdb9cbc99b9eed7b245fc14082458c0582c7403929cc5df37957",
+      "n": 51,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          0
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 1,
+        "mode": "augment",
+        "n": 51,
+        "requested_mode": "auto",
+        "seed": "6dc74aa261307f6a43e1ee8293b8a3a05ad9bb5f7d08726157c0a28724e206fb",
+        "seed_word": "seed",
+        "translation": [
+          -16,
+          6.6,
+          0
+        ]
+      },
+      "prev_hash": "9d891e6812d0c1488ae0bb8cb4fc752b0ea84fcdac08d2668e54c8af6db94694",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "cb9d92f23b14ba45b1402dbd5070f3cc1832144dda698cf08de2f4e9aa853bdd",
+        "raw_sha256": "4cd951d0eaa98edc8a37444a568c253633a46a7970e177b595d93e11f0d41ee8",
+        "scene_sha256": "944ab199ee567487f492fd13b7da0898804c83ba8f3e8521aed9e898666284a1"
+      },
+      "family": "ziggurat",
+      "hash": "ee13362e1af49fffb1e5bcc2de70ead5d94a38397d9e75d78320d546210211da",
+      "n": 52,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 52,
+        "requested_mode": "auto",
+        "seed": "af6a8b624a4592912e0feeede8091295bad6ea1be3b848ed2d3c9e3de2387bf3",
+        "seed_word": "lattice",
+        "translation": [
+          24,
+          0,
+          24
+        ]
+      },
+      "prev_hash": "ffc10f07c3b2fdb9cbc99b9eed7b245fc14082458c0582c7403929cc5df37957",
+      "raw_bytes": 2482,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "3e68c722ff4b99f2fb26223b4218c1c0eebad8f3e9f9a4f7d1b72458b3bee19c",
+        "raw_sha256": "f6de2094cb22ef3f67fbdab0122eab691e4bb22a71c2efb8be2fcaf343586d2d",
+        "scene_sha256": "98422fba29d0a84b7cb83d124d00aec8703e97f0793cf5149312af43adb7febf"
+      },
+      "family": "orrery",
+      "hash": "97134ba368bb72492e6293028bf5b53742b298df646a69c52572bf615d46e5de",
+      "n": 53,
+      "nodes": 57,
+      "plan": {
+        "biome": "basalt-brass",
+        "cell": [
+          1,
+          0
+        ],
+        "color": [
+          0.81,
+          0.57,
+          0.24
+        ],
+        "era": 1,
+        "level": 4,
+        "mode": "augment",
+        "n": 53,
+        "requested_mode": "auto",
+        "seed": "4629a2a8fbf52b1201b986cc3f748c1245927a123d8715705736f98dc0ca3aae",
+        "seed_word": "vessel",
+        "translation": [
+          8,
+          26.4,
+          0
+        ]
+      },
+      "prev_hash": "ee13362e1af49fffb1e5bcc2de70ead5d94a38397d9e75d78320d546210211da",
+      "raw_bytes": 2327,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "597f79067095769cd05216205317d9f01df8bc89c608538b01dd6ae4f55ce6b0",
+        "raw_sha256": "bf191cf8dbd94cea795bb33fa2194c42d11cfd8b09a9a72d1a647a9e889783d6",
+        "scene_sha256": "10b7cc8afa3b232535319dcca265ddc54e61b71682ea6480f578b620aa0696ba"
+      },
+      "family": "gyroscope",
+      "hash": "fb3522959d3dd9d099f1b270479686e1139fba497b2b24574d0b6cf84ac36554",
+      "n": 54,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 1,
+        "mode": "augment",
+        "n": 54,
+        "requested_mode": "auto",
+        "seed": "f3cafeef9616ccfde871a432976083b23da1bd38c00283ce6554b0ea62144d57",
+        "seed_word": "astrolabe",
+        "translation": [
+          24,
+          6.6,
+          16
+        ]
+      },
+      "prev_hash": "97134ba368bb72492e6293028bf5b53742b298df646a69c52572bf615d46e5de",
+      "raw_bytes": 2308,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "e916f95193139aa3c07a4d13d8514f7ebdfe75652d039ea8b30b8fa35786a6f7",
+        "raw_sha256": "7c1e94110483ff8a458d8c1175fc4cabb326cdd2473a2db879ebe114951b8f49",
+        "scene_sha256": "2bed461ecee04df13eb15a194c14c59ea305386d85e1c1190ec0ebb2168884a9"
+      },
+      "family": "coral",
+      "hash": "4db172c8f023b0813775b63fa44c5afa95e127a9b9cf4525909ff6102571ec83",
+      "n": 55,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 55,
+        "requested_mode": "auto",
+        "seed": "cb7bdf659bf90f279c104b0b44ab82b641019fc193057cc3a3c495b916f697de",
+        "seed_word": "tide",
+        "translation": [
+          16,
+          0,
+          24
+        ]
+      },
+      "prev_hash": "fb3522959d3dd9d099f1b270479686e1139fba497b2b24574d0b6cf84ac36554",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "18c00002a892b325d96f45ef60d5c3962e2a9d234674f7b13361b38d77ba2309",
+        "raw_sha256": "6ae9771fe4ea42125e030dc516404548f025918c8ae851d8f09175d57aa945de",
+        "scene_sha256": "30ef79cae3586c573f499b8e34ccd281351ec5dec7d19ce4383c47b22d00d599"
+      },
+      "family": "ziggurat",
+      "hash": "6b82bbbdabe7a92275f1caf924074c0bb7afa3e6f175440980df0c222e05645d",
+      "n": 56,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          1,
+          3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 56,
+        "requested_mode": "auto",
+        "seed": "63194c72f8afc5ea11f48d267cd6bc52ca30ed1d67af8b1ddfb801306baf1a32",
+        "seed_word": "canopy",
+        "translation": [
+          8,
+          0,
+          24
+        ]
+      },
+      "prev_hash": "4db172c8f023b0813775b63fa44c5afa95e127a9b9cf4525909ff6102571ec83",
+      "raw_bytes": 2482,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "6a6b01ad99ee1c254b826a220992965cee5d1fc478ef7f39181beb535088d998",
+        "raw_sha256": "5766a05c46f80f14b3ddf46ba4a01b979844d6ee739bf50057909bf960c39483",
+        "scene_sha256": "7afacdb2bac2417c3cc129197646d66e76891c3f55be8433106158fad7743f11"
+      },
+      "family": "orrery",
+      "hash": "1dcad1364bb96a93c791d08042aa3d46bb074df422857e19ddc08f24a7bd8adb",
+      "n": 57,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          0,
+          -2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 1,
+        "mode": "augment",
+        "n": 57,
+        "requested_mode": "auto",
+        "seed": "dadeb320a465c5cfea14acf548e743e76ab77bba06bac2ae1134ef5bf707fc51",
+        "seed_word": "lattice",
+        "translation": [
+          0,
+          6.6,
+          -16
+        ]
+      },
+      "prev_hash": "6b82bbbdabe7a92275f1caf924074c0bb7afa3e6f175440980df0c222e05645d",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "2707f9dd4a8709f324bb192368b265a3e52505f0fe6506d7542d31d8c7f1ba23",
+        "raw_sha256": "6b2945b6c77ade44c9505aa2ed1245e93ddf3721529938a6023eb5e3c0150db9",
+        "scene_sha256": "925da70a741ab308778787176f96e4655ab577e155eb2c959e8cec6db9585782"
+      },
+      "family": "beacon",
+      "hash": "40e0334a47dc210278ade27316f7abefd38608504ecd42d6946ff71fc72ecee9",
+      "n": 58,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          -2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 1,
+        "mode": "augment",
+        "n": 58,
+        "requested_mode": "auto",
+        "seed": "c41e4bd7219e94b533c69bc078a45fd2016e10b3445fcdd41664fab31e8320fa",
+        "seed_word": "turbine",
+        "translation": [
+          -16,
+          6.6,
+          -16
+        ]
+      },
+      "prev_hash": "1dcad1364bb96a93c791d08042aa3d46bb074df422857e19ddc08f24a7bd8adb",
+      "raw_bytes": 2393,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "e73d7c9e4213c8a2b71f76bb6ab923d7325a51642fbd15004e81218a24a41404",
+        "raw_sha256": "7d3964223a60efdd776b5e2725ef687afebce693ac01f50010b04f4012a09d71",
+        "scene_sha256": "50064d2a28b3db233d58e5981303daf8d52aca7dc859ee143a0e36c7c21d5c0b"
+      },
+      "family": "orrery",
+      "hash": "11bd724decd753a0b8b4714d72963cf48b7dea3408583fea68a688c2c528a680",
+      "n": 59,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          0,
+          3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 59,
+        "requested_mode": "auto",
+        "seed": "7ae42518550e45577fc8180021b25c61be4c254c1b473ac244dcb5ba7bce7587",
+        "seed_word": "orrery",
+        "translation": [
+          0,
+          0,
+          24
+        ]
+      },
+      "prev_hash": "40e0334a47dc210278ade27316f7abefd38608504ecd42d6946ff71fc72ecee9",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "01d099b5e84922e58d97c4cb25dc29c5b529310651e94af77da661f107cfa48f",
+        "raw_sha256": "f3b263f3738147018cfc7d5be78c18b291240c6f1149f5047f700e2414cf679f",
+        "scene_sha256": "1b023326cd9afeef5783d32c76950eee93c99b2e3852f0addb6f701e12b1d920"
+      },
+      "family": "gyroscope",
+      "hash": "f975cb522a2647563bccc7c090ccf18b643dc285d5b36639dca32ed9d9e1af9f",
+      "n": 60,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -1,
+          3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 60,
+        "requested_mode": "auto",
+        "seed": "e2ef1289f065cf3837187368eab04f616587f10a009c586a3be9d2b900609e52",
+        "seed_word": "cairn",
+        "translation": [
+          -8,
+          0,
+          24
+        ]
+      },
+      "prev_hash": "11bd724decd753a0b8b4714d72963cf48b7dea3408583fea68a688c2c528a680",
+      "raw_bytes": 2308,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "3fa18d0bb0196b93cf5e193a4299d93cb0fbc2747489a95101ac3e2434255137",
+        "raw_sha256": "20e280572f87f4acde8fbe43820703b23e3a1bcb6ff71224c70fa0ae1626cdb0",
+        "scene_sha256": "4f5489799a35474307b42a0ef8703229952b417635c524c912ba2dfc3b78b8c7"
+      },
+      "family": "mycelium",
+      "hash": "bbd47b564bf692b80477f265569c4a3627d6dbf3fe3e563c708354615af3d7e6",
+      "n": 61,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 61,
+        "requested_mode": "auto",
+        "seed": "83e78312aff7daf9c34ad2c51e38ebfb6180170421df1ca402a9dc83da423259",
+        "seed_word": "crystal",
+        "translation": [
+          -16,
+          0,
+          24
+        ]
+      },
+      "prev_hash": "f975cb522a2647563bccc7c090ccf18b643dc285d5b36639dca32ed9d9e1af9f",
+      "raw_bytes": 2456,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "6aa8b3ce661b540045cbf4d5bf9d8cbc683fcd6b150ca442f0a36f1ee1302510",
+        "raw_sha256": "6a82d180be0b1f3018cdc7f522b5769fee4bc96a135b1fc4de3cda9ab069ec3c",
+        "scene_sha256": "1782d7351928db396789aab5bbb946743f7a34aeff32637ae81970777c6aa21e"
+      },
+      "family": "orrery",
+      "hash": "737a41af99ba6ee0f4c9a0bd190d487e907d03a5476fdf87641c7cc67b5f9204",
+      "n": 62,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          -2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 1,
+        "mode": "augment",
+        "n": 62,
+        "requested_mode": "auto",
+        "seed": "6380ebaaa96355980b3e32603698dbc9b7a6bc6b30bda502ec5c2a8417704da2",
+        "seed_word": "orrery",
+        "translation": [
+          16,
+          6.6,
+          -16
+        ]
+      },
+      "prev_hash": "bbd47b564bf692b80477f265569c4a3627d6dbf3fe3e563c708354615af3d7e6",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "efecdc495ff13f22845479e51ff0eaf1ee875822f7685aa6b06e64de47c233c0",
+        "raw_sha256": "d707446a13b87f8c54ac00fce847bfbec3752e7d6ecdc5165d43a06bf6ff488f",
+        "scene_sha256": "579be896eeb0bd841ba87706653beb8a927b3caa2a7d6dc1ce0eccd7336b42f2"
+      },
+      "family": "mycelium",
+      "hash": "9f5d7074f781da30999e16fe9f85a7f7db2a533287897bf2dda1c54249b07ed6",
+      "n": 63,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -3,
+          3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 63,
+        "requested_mode": "auto",
+        "seed": "dee5231c80f8d9aba667c6b63c69990884552aedbe959d528fd2d7bf76724c46",
+        "seed_word": "spire",
+        "translation": [
+          -24,
+          0,
+          24
+        ]
+      },
+      "prev_hash": "737a41af99ba6ee0f4c9a0bd190d487e907d03a5476fdf87641c7cc67b5f9204",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "b2d999716acea08496911f29e52651687cc9625af6501069383a5807a86cddd8",
+        "raw_sha256": "008efe9a1a4b4821f52e858bb98ea4df38cb075db04ac0b3b7fe9d3c2a9956ec",
+        "scene_sha256": "7f9a7a5f99aaa49175e01d44bc49feaba974aa96f8bf0a2f8e079112727860d9"
+      },
+      "family": "coral",
+      "hash": "5be3418d3d0226abf7a334f0f84dccb7700756ca2b4e3de75f151e9b91201b92",
+      "n": 64,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -3,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 1,
+        "level": 0,
+        "mode": "generate",
+        "n": 64,
+        "requested_mode": "auto",
+        "seed": "5452d2bca1b8866f2601febba19af40b6452fd7583458a81f8d8e4bb429b4b85",
+        "seed_word": "tide",
+        "translation": [
+          -24,
+          0,
+          16
+        ]
+      },
+      "prev_hash": "9f5d7074f781da30999e16fe9f85a7f7db2a533287897bf2dda1c54249b07ed6",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "f531c9d7c07432e4dfb17b438f0fbbc50afd12bb3ff6bc01ddafdf33f1f68a63",
+        "raw_sha256": "67796f8b750f47665542f8d4f66d1be3fda9a936f4beb48b2dc6f3a0273df6bc",
+        "scene_sha256": "c11313cffe32b4b182947ec9bdf26c4eba6fdc4db40228a95cb8fc311be40fd7"
+      },
+      "family": "ziggurat",
+      "hash": "9871931e9573d864a74378f2d11fce91c00ce3010c2c5b6b25c9998109023b2c",
+      "n": 65,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 3,
+        "mode": "augment",
+        "n": 65,
+        "requested_mode": "auto",
+        "seed": "4f10abc0e3eb814fa8f07bfc66d6a64104aa6bf18c5d25c9823073d7a3ed3dee",
+        "seed_word": "spindle",
+        "translation": [
+          16,
+          19.799999999999997,
+          16
+        ]
+      },
+      "prev_hash": "5be3418d3d0226abf7a334f0f84dccb7700756ca2b4e3de75f151e9b91201b92",
+      "raw_bytes": 2479,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "c4ae2436f334a46e85fe8fc337af1a6277b5964766aadf21a81f9ee7ee54abfd",
+        "raw_sha256": "f2990721bf37625b60e9705e8b7af0a3d17515f6bfe6cddffe146d21ac192b1d",
+        "scene_sha256": "9cca11ecebfd353c51da20085fc20c916a3fc71160854ebbadfb9825ef296f11"
+      },
+      "family": "mycelium",
+      "hash": "ead55c0f106e33b7cb6045a4f7838d0a62a5c5b1a56806c4280f4969b05ae673",
+      "n": 66,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          0
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 2,
+        "mode": "augment",
+        "n": 66,
+        "requested_mode": "auto",
+        "seed": "e0a6d8370b4c5d6f7bfe6dd9ce73640f7db9cd24082ba24bf56ddc3f37a2e98c",
+        "seed_word": "mycelium",
+        "translation": [
+          -16,
+          13.2,
+          0
+        ]
+      },
+      "prev_hash": "9871931e9573d864a74378f2d11fce91c00ce3010c2c5b6b25c9998109023b2c",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "7d22e435f4ae8096dc6ad08cbc0f5ee34fc1ceb1d146d7492303e9971c42a546",
+        "raw_sha256": "adc2ecd6895daa5d74358ccc87433adffff3b4105490162f9807707738937260",
+        "scene_sha256": "536cb4fc9bd1a12150bc73853ca25e5314a8e800dbcca3df795fe716cd3dc230"
+      },
+      "family": "orrery",
+      "hash": "15f86260c63317b48c9cb9a2441f0958e91c593ec040f204a844fc06c1275235",
+      "n": 67,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 1,
+        "mode": "augment",
+        "n": 67,
+        "requested_mode": "auto",
+        "seed": "1077b7262b1cabcc1a131320070190af2e37d30f94660991e0a42c5590e7f09d",
+        "seed_word": "orrery",
+        "translation": [
+          24,
+          6.6,
+          8
+        ]
+      },
+      "prev_hash": "ead55c0f106e33b7cb6045a4f7838d0a62a5c5b1a56806c4280f4969b05ae673",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "9aa3f0b01a3313a56ae71cd93c0ded4cc9df32567e440b357f2345d25d4e779f",
+        "raw_sha256": "7b5c1608503f5216af8b77e0ad8747b8808c50deac19f0ec14dc41e2742e9287",
+        "scene_sha256": "fb35b2b51307e08f2c007dac72d9a3b3705d4b75f894538ba14b8e3f954fd7a2"
+      },
+      "family": "coral",
+      "hash": "153df7138116f27a6ea30b2064677587bd3cffc664648b31f75569cac33a98a5",
+      "n": 68,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -3,
+          1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 68,
+        "requested_mode": "auto",
+        "seed": "5eb0b62d555e81ee9c6c38eeea28706a4440e637248e0a6e04e74f107565e252",
+        "seed_word": "coral",
+        "translation": [
+          -24,
+          0,
+          8
+        ]
+      },
+      "prev_hash": "15f86260c63317b48c9cb9a2441f0958e91c593ec040f204a844fc06c1275235",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "77fd24cb1dbf1f67bab3a315fe1950bb9c7492a06252c53ca5d4359a75305828",
+        "raw_sha256": "6e016daf6d5b9f5251d947b68d0df72576c814e09c4a516d9aac70fd7ed84ed9",
+        "scene_sha256": "1ac10073a9461b2c99bee02352fde16b9e53a4127d550f562f96bba9cc468993"
+      },
+      "family": "orrery",
+      "hash": "ba9d2bffe756dcc17efa3c838e4144ec38b9e7cc58625e0aa6baed4594bea5e1",
+      "n": 69,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 2,
+        "mode": "augment",
+        "n": 69,
+        "requested_mode": "auto",
+        "seed": "6892144e5ced78c7721b70117d040038259decc8460641a65e48a7dd4a977aac",
+        "seed_word": "lotus",
+        "translation": [
+          24,
+          13.2,
+          8
+        ]
+      },
+      "prev_hash": "153df7138116f27a6ea30b2064677587bd3cffc664648b31f75569cac33a98a5",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "42e08ff62f413e296351f07ff80a1ab100fb8242714a557e59238e130021e147",
+        "raw_sha256": "90b9893b233835f510e5b7e72b949211c21691ca6859bc2d1c78f7aa1ed05851",
+        "scene_sha256": "ff7d90b1f33f82092dcc17241766eeddb56b8e43e3b17abcfc5bae34b2fb9694"
+      },
+      "family": "ziggurat",
+      "hash": "6d128cda55897e5a019dd53d122e2bd0c9017b47d1b0014cb750e36173408665",
+      "n": 70,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -3,
+          0
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 70,
+        "requested_mode": "auto",
+        "seed": "5098b98cc5b57a96ab57c7a2074c6e788be02b0321d7e9cb9653230cf0f11e4a",
+        "seed_word": "astrolabe",
+        "translation": [
+          -24,
+          0,
+          0
+        ]
+      },
+      "prev_hash": "ba9d2bffe756dcc17efa3c838e4144ec38b9e7cc58625e0aa6baed4594bea5e1",
+      "raw_bytes": 2482,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "3cf17e04cb1c73db426c3ca1c85f8e0c5fe9f682e01e45a13bd29301744e0d70",
+        "raw_sha256": "c3a325383da26eff0b4a5228599c1054671f53640c9332fdcd036ea20b8f7098",
+        "scene_sha256": "1d7b1e018a4257c049b14fbd8b9dd4f0afa03d9a3ef0f4f3628f40a633d2edf9"
+      },
+      "family": "orrery",
+      "hash": "75392ae79e53a709e6ec3f90fd43a38113c0cc5c53c27cff67a1b16d46f0aa67",
+      "n": 71,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -3,
+          -1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 71,
+        "requested_mode": "auto",
+        "seed": "2328e5f8f9763ac9bd8fb4b2e4df2e0080addd887281b4648c024f5f4fc39686",
+        "seed_word": "seed",
+        "translation": [
+          -24,
+          0,
+          -8
+        ]
+      },
+      "prev_hash": "6d128cda55897e5a019dd53d122e2bd0c9017b47d1b0014cb750e36173408665",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "9ef097dcf1a5ef11070239383333cab3dc76803bca043912c69a0fcf577612c0",
+        "raw_sha256": "a9fade5246553f22be110d3be80eec93685b98cfbf488b76e534f0f2631f478f",
+        "scene_sha256": "baf60fd225719bc8229ab150edbbfd6c24694b7e3adde7e0ff6029815393f85f"
+      },
+      "family": "ziggurat",
+      "hash": "e4160f8c314f7273c29695a8617b8f7f44ea570b36e34d298cda66c614291cf9",
+      "n": 72,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -3,
+          -2
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 72,
+        "requested_mode": "auto",
+        "seed": "cabc73e8258a73ec7b0c5ba2f5a7d3aa4c6ecb93715e20b543b9792048a0c5bc",
+        "seed_word": "astrolabe",
+        "translation": [
+          -24,
+          0,
+          -16
+        ]
+      },
+      "prev_hash": "75392ae79e53a709e6ec3f90fd43a38113c0cc5c53c27cff67a1b16d46f0aa67",
+      "raw_bytes": 2482,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "6435b9f72f4f77703c397641217499d3f9c61185ce38c2adf9f69bd33997b807",
+        "raw_sha256": "9da4f9bbdad6f97b7e1032a48f8492001c2b24fcab3639f17b0d1676061ab220",
+        "scene_sha256": "b14b0defdcae0528b87f69360209ed5c399cb79069c3d75f6af29a3e5fe9d1aa"
+      },
+      "family": "mycelium",
+      "hash": "51e7e9861a8003df65f9f04afc7a6785ac3beeec0b4b5c1d46bafdd99b167c15",
+      "n": 73,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -3,
+          -3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 73,
+        "requested_mode": "auto",
+        "seed": "ff53eab63292f676f7a89e195968d13133c90e847d13fc41fbb78e23c7256ee7",
+        "seed_word": "mycelium",
+        "translation": [
+          -24,
+          0,
+          -24
+        ]
+      },
+      "prev_hash": "e4160f8c314f7273c29695a8617b8f7f44ea570b36e34d298cda66c614291cf9",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "2f639f1bfbefc46bae29b9c2ca94bd97b02fcd476a99d0b1d5e50a46386dab93",
+        "raw_sha256": "9174173a128cfe8b0b0d6eafb2d232823be6495b9a58899e035c149dda4239a8",
+        "scene_sha256": "3a3be80b67d358d53f07cd547d14d03200bd96813716b29d313dcf731f9fdb8a"
+      },
+      "family": "mycelium",
+      "hash": "d43c263135b62bc9415e7e9eb7f1d178e7797e7cbd1af26e47e883c94daad02e",
+      "n": 74,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          -3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 74,
+        "requested_mode": "auto",
+        "seed": "0610e430f7bd526255fc94183d0e7aec4a9f34e9211e4f3d1b56eefbd230686a",
+        "seed_word": "turbine",
+        "translation": [
+          -16,
+          0,
+          -24
+        ]
+      },
+      "prev_hash": "51e7e9861a8003df65f9f04afc7a6785ac3beeec0b4b5c1d46bafdd99b167c15",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "15e9d8e83f9a9035d4c56174c5a3ed19a394d677856a5ad370f7de3e85f71621",
+        "raw_sha256": "a8104089ddd826fb9d1c0c06d68f667868f168c85a4255a192c439b42a73c37e",
+        "scene_sha256": "e9c0be5e281883b317616962d53d31b909d5c49b5e908104870035156e5d92a4"
+      },
+      "family": "beacon",
+      "hash": "168932e8651c2d25dbde80742c6487ce93eb52b6c50f4a30640ed893419046e9",
+      "n": 75,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -1,
+          -3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 75,
+        "requested_mode": "auto",
+        "seed": "380658e1543142fde5111761cd881c1fd4ef51c2815ca46b6f4f6096eaeca403",
+        "seed_word": "lotus",
+        "translation": [
+          -8,
+          0,
+          -24
+        ]
+      },
+      "prev_hash": "d43c263135b62bc9415e7e9eb7f1d178e7797e7cbd1af26e47e883c94daad02e",
+      "raw_bytes": 2393,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "bd55b85ec591b2ef26a199e8057a3581b200af0c73b8dae4a9f1ca1d90830dd6",
+        "raw_sha256": "e6454861aed8189b5b235db6571d5c304039ec6784dcd82f73c65aef5152ae71",
+        "scene_sha256": "8abc94ee1871b8d0d07a30283de153bc88f652d31011cbf3cabd9dd244949815"
+      },
+      "family": "orrery",
+      "hash": "1cae1afd81039549d2068669609e84bae24d80a0a7b8ab31009101a19f56633e",
+      "n": 76,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          0,
+          -3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 76,
+        "requested_mode": "auto",
+        "seed": "5acf4320389247661bb0d96de888ecad25808211f00e2b3a5134273f63d9aaaa",
+        "seed_word": "crystal",
+        "translation": [
+          0,
+          0,
+          -24
+        ]
+      },
+      "prev_hash": "168932e8651c2d25dbde80742c6487ce93eb52b6c50f4a30640ed893419046e9",
+      "raw_bytes": 2321,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "b261093cc2113d86a89a146faf8d479307c1d4805773788b28511abe0d5cc3dd",
+        "raw_sha256": "5ee5dd83bee371b51d6409d202e0187186ca972f4dd54d73f7198b4654c09508",
+        "scene_sha256": "caa20ee80054251440d4d3e74109360bab1f1ac0b7ea9cbeaade7fc1c51ad3dd"
+      },
+      "family": "gyroscope",
+      "hash": "8714cda2ecca03c219c0793f1505888d9a3d59f96af9e548f24b49424881bef4",
+      "n": 77,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          1,
+          -3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 77,
+        "requested_mode": "auto",
+        "seed": "c90bb0bb214c70f3f73fa410f0597eec9b4043bfb5adf33796c648954284adf8",
+        "seed_word": "cairn",
+        "translation": [
+          8,
+          0,
+          -24
+        ]
+      },
+      "prev_hash": "1cae1afd81039549d2068669609e84bae24d80a0a7b8ab31009101a19f56633e",
+      "raw_bytes": 2308,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "6aea45b1e9b784dfef09fae979eb49000f165b11d58ecc284edb89d84af24640",
+        "raw_sha256": "4427d1191c69210254551a85fabbbce9252486c3ecde4c66cc2e7a4abf253e70",
+        "scene_sha256": "e4ca79d1e68e55e518558faa7107ec45e908cf1c1dc046f0227e7fe48ff108a6"
+      },
+      "family": "ziggurat",
+      "hash": "8161dce860bb7b2d1c65b3f3eda5aeb3ec1f069601fbb7012b80e750a15da063",
+      "n": 78,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          2,
+          -3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 78,
+        "requested_mode": "auto",
+        "seed": "72f7e4ac15a77a761f4273bdc87cd62b30f77a5564edf4f392600d7e219ab704",
+        "seed_word": "lattice",
+        "translation": [
+          16,
+          0,
+          -24
+        ]
+      },
+      "prev_hash": "8714cda2ecca03c219c0793f1505888d9a3d59f96af9e548f24b49424881bef4",
+      "raw_bytes": 2482,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "db3ad59aa30ee24ea52fc899f4e26ea4c4ea3bd64099d995898004bf8e8e947c",
+        "raw_sha256": "b4522078e27bc622ad8ad268f4b258e04fa57654eb805836b539686813c60761",
+        "scene_sha256": "e282195f3f8b89dc6a5335c91fa7c6c5607b2cfb4efd18d8ec2c4867bec6a010"
+      },
+      "family": "coral",
+      "hash": "e427193fa0e35fd8f3848b07495afef2b656c736bed3d3ad312802703435a7e1",
+      "n": 79,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          -3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 79,
+        "requested_mode": "auto",
+        "seed": "61dcc4df39977e55f47dc23072441a83e9eabc576cb342314c1d80d3cf34e110",
+        "seed_word": "turbine",
+        "translation": [
+          24,
+          0,
+          -24
+        ]
+      },
+      "prev_hash": "8161dce860bb7b2d1c65b3f3eda5aeb3ec1f069601fbb7012b80e750a15da063",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "c4c96ab3c325db4924684a4e72520427d5b2e235e178f201dcc9fb62aef5692e",
+        "raw_sha256": "10b368ad94b6b040b3389bf681a4b2f7efa7ee4b86b62cbcf16cccefa2c6a2cc",
+        "scene_sha256": "21d34ef325c00bfe03187909910f0f5ac72cac212d6e00fb8d56b7c0e0951fe5"
+      },
+      "family": "ziggurat",
+      "hash": "0bb0305072fc695ca43c6209d1a09bfac66a5fd5502d026abcc327eb6dc054ae",
+      "n": 80,
+      "nodes": 57,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          4,
+          -3
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 80,
+        "requested_mode": "auto",
+        "seed": "35d507f8d2c562a28b8ade876bbbb1d93eb57e4b52e9bdf6c312071e8752a22a",
+        "seed_word": "helix",
+        "translation": [
+          32,
+          0,
+          -24
+        ]
+      },
+      "prev_hash": "e427193fa0e35fd8f3848b07495afef2b656c736bed3d3ad312802703435a7e1",
+      "raw_bytes": 2485,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "15b3a091e2943847949fd0b96f9e98f6211377e0418900101e0beb2c56b97587",
+        "raw_sha256": "89d4060f7126039bb6dbd2792cfa34a8a3131a1e297eb85b6208b7b6c1cd63dc",
+        "scene_sha256": "9a57940ba452ce98e884c1dbdd1721ca600037a9eeb0af4740dd462ef755faae"
+      },
+      "family": "ziggurat",
+      "hash": "d5bb8464f31b00b278599f51f3e9e03c1c3f97bc3e2acc275c7fae92697abdf4",
+      "n": 81,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -3,
+          -1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 1,
+        "mode": "augment",
+        "n": 81,
+        "requested_mode": "auto",
+        "seed": "dbb7120f81440cff489a0dba9bad265ec1f31b43668696b85adbace2966aa602",
+        "seed_word": "ziggurat",
+        "translation": [
+          -24,
+          6.6,
+          -8
+        ]
+      },
+      "prev_hash": "0bb0305072fc695ca43c6209d1a09bfac66a5fd5502d026abcc327eb6dc054ae",
+      "raw_bytes": 2482,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "7ce07354c9b4617a32b46f4ad072aeff7e89adfed3070c73aa1bc3e2352b6ad6",
+        "raw_sha256": "14cf9cb7aa5547469689ea66273bfa0fd72679ebbb96a8cd2d39d8f7b1e36f6e",
+        "scene_sha256": "17bc29db5f9e9d4a945a214e518b1a19d168db2f0ed45bae3311f88a92e694f8"
+      },
+      "family": "mycelium",
+      "hash": "31cedba6961f70b101b56bc14d55ef7d9f793729e5bcf88bd516cdfd0c15db26",
+      "n": 82,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          0,
+          3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 1,
+        "mode": "augment",
+        "n": 82,
+        "requested_mode": "auto",
+        "seed": "b15cfcf8c41c77844a8093853fd7f16a5cee0f75211ef971e12928ae3a699ebf",
+        "seed_word": "lattice",
+        "translation": [
+          0,
+          6.6,
+          24
+        ]
+      },
+      "prev_hash": "d5bb8464f31b00b278599f51f3e9e03c1c3f97bc3e2acc275c7fae92697abdf4",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "62ee9a0d2f5460477d016249e08cb63fafc7eae319148c0a8cb7434582462fbe",
+        "raw_sha256": "cd9d0b684a00d7305645ea9fb7a4f30648364f3c2b843e42ded5648021c231ca",
+        "scene_sha256": "c1fd6c1f67f62c207766bad9a1ccb0065ad351f74dbb6e0c72ddc6f2c9ab0794"
+      },
+      "family": "ziggurat",
+      "hash": "0c01caa46069affe8b38b0a7e77da3ad51259c01074e06a2d0949b81a6b00006",
+      "n": 83,
+      "nodes": 57,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          4,
+          -2
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 83,
+        "requested_mode": "auto",
+        "seed": "c12c7b22c89b8bde7c6d53ca7f2c8c1efbb486f1af9a7caba39a2c963d154a4c",
+        "seed_word": "ziggurat",
+        "translation": [
+          32,
+          0,
+          -16
+        ]
+      },
+      "prev_hash": "31cedba6961f70b101b56bc14d55ef7d9f793729e5bcf88bd516cdfd0c15db26",
+      "raw_bytes": 2485,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "5d6c0387266d72686e68212b901e024b34fd3510d42350aca62bf78f6346d6f0",
+        "raw_sha256": "dc2ef368e378f0cbf7539ceead16b8f433a0337221429f5a1efec0294a67876a",
+        "scene_sha256": "91bf6b1f9b8e0f851156c4b6126a6b32887c3d5563d97433c8a87beab59c1776"
+      },
+      "family": "mycelium",
+      "hash": "dd1d607d0a8d4973a796d502dcd5a8ed5d21c145e14bf9d9170259dce7d83867",
+      "n": 84,
+      "nodes": 56,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          4,
+          -1
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 84,
+        "requested_mode": "auto",
+        "seed": "9f6e94645537976761dbc5b2519f39dd8b15d35d2688a9b44b911065595fe480",
+        "seed_word": "astrolabe",
+        "translation": [
+          32,
+          0,
+          -8
+        ]
+      },
+      "prev_hash": "0c01caa46069affe8b38b0a7e77da3ad51259c01074e06a2d0949b81a6b00006",
+      "raw_bytes": 2465,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "b86c4449cd96971ba28fb744c65b720db22a640f6cfc6200bf56211661ca7140",
+        "raw_sha256": "70f1549614c0e8eba4983db853a929c306ae7a3fc2b35b3d87af7acfae243b8c",
+        "scene_sha256": "6237bbf3ab1d9364e8c5c8586ab79d8efdb8bf1f730596c828f24b57f3724370"
+      },
+      "family": "ziggurat",
+      "hash": "45c0bed25be2f17a0193bc4376c0178f2dbe74803c700fcee727dcf8ab3b841d",
+      "n": 85,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 3,
+        "mode": "augment",
+        "n": 85,
+        "requested_mode": "auto",
+        "seed": "efe5cb4e7a2dea717b80442d4da2e5e2ed085568118d027b840d94e7803e0a16",
+        "seed_word": "crystal",
+        "translation": [
+          24,
+          19.799999999999997,
+          8
+        ]
+      },
+      "prev_hash": "dd1d607d0a8d4973a796d502dcd5a8ed5d21c145e14bf9d9170259dce7d83867",
+      "raw_bytes": 2482,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "781fb9bde3fb6616c161000127e8d427d17065fe08d8b084dc5141f96a7c7e0e",
+        "raw_sha256": "f599fcedf65e19bbed1ac41cb10ffa592f25d7b8d39bee19f3935b76c63699b6",
+        "scene_sha256": "b686d96098f5704ae02649867cc8d4a1073cdde14acb4dc714bb2ea48516245e"
+      },
+      "family": "gyroscope",
+      "hash": "9e6eff5d2aa061bb8258c5bcb70456df398afb569e58d98c31a2e616fc573fa2",
+      "n": 86,
+      "nodes": 57,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          4,
+          -1
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 2,
+        "level": 1,
+        "mode": "augment",
+        "n": 86,
+        "requested_mode": "auto",
+        "seed": "6d084c7f3d0de49d5c9ae1e16470b4ac90eeda854da31cc98434ac979de429ba",
+        "seed_word": "lotus",
+        "translation": [
+          32,
+          6.6,
+          -8
+        ]
+      },
+      "prev_hash": "45c0bed25be2f17a0193bc4376c0178f2dbe74803c700fcee727dcf8ab3b841d",
+      "raw_bytes": 2311,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "3f2d01d94abc1eb1027de411bd2b0de7e1bfdfadefd1d43b01c2c9e9732bf8c3",
+        "raw_sha256": "0156ca5c86e90c29b2d26707efc415569251d7a9d2f7be4390c878dd69769569",
+        "scene_sha256": "489fdd90ca8b1b41ffbea1f99bb72d530c67d644caca55bc9f772748374101e4"
+      },
+      "family": "gyroscope",
+      "hash": "f0be6c69381aa91d042b0d9338236f2abb10b7f6e525c14d6c0f8e5921dbc921",
+      "n": 87,
+      "nodes": 57,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          4,
+          0
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 87,
+        "requested_mode": "auto",
+        "seed": "8f771c2172dbaedefa3fdbc1fce35e6399d9a167053677bb5e47d7317099f141",
+        "seed_word": "gyroscope",
+        "translation": [
+          32,
+          0,
+          0
+        ]
+      },
+      "prev_hash": "9e6eff5d2aa061bb8258c5bcb70456df398afb569e58d98c31a2e616fc573fa2",
+      "raw_bytes": 2311,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "c95b344b01ec349bff6601b3442e792df49b873f9913509fea1f7c613c59d272",
+        "raw_sha256": "96892608a24369c168a9ddab16ea0165e7592bba74f906247e573cc3d23e978d",
+        "scene_sha256": "899ab525f0fc1c0025b685094676f740b10217d0b40b04c2174a51e0fbb013d2"
+      },
+      "family": "coral",
+      "hash": "3dca9c50b4654afb4e7ba0cb386d0e327d249c4822c07b5886ced7c7c703846f",
+      "n": 88,
+      "nodes": 56,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          4,
+          1
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 88,
+        "requested_mode": "auto",
+        "seed": "435457572de7bba7253335237916f96d1863cd6874477584dfaab36f64a5cdbc",
+        "seed_word": "reef",
+        "translation": [
+          32,
+          0,
+          8
+        ]
+      },
+      "prev_hash": "f0be6c69381aa91d042b0d9338236f2abb10b7f6e525c14d6c0f8e5921dbc921",
+      "raw_bytes": 2639,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "7837d4846eb11dcd5ef3d78ae6386d424a0c4d2651be805022a75e8c070e04e0",
+        "raw_sha256": "16d0c9f0de2f9c302f5ae504ff4a2ab6e1a88662500d1633d7d7603af02311f8",
+        "scene_sha256": "afe8c075a297725ad8eea142239197b27e22f4f12d71f7ad1521320ac6a5a80e"
+      },
+      "family": "orrery",
+      "hash": "37cf7a9ab4fe259272527dd476a271f4eae470bcad29e9fffeab8db628999e43",
+      "n": 89,
+      "nodes": 57,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          4,
+          2
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 89,
+        "requested_mode": "auto",
+        "seed": "bba2f8548ac965ffafbf44c72109a4bd53f7a5e6d81442137f07f8a13974b4e8",
+        "seed_word": "resonance",
+        "translation": [
+          32,
+          0,
+          16
+        ]
+      },
+      "prev_hash": "3dca9c50b4654afb4e7ba0cb386d0e327d249c4822c07b5886ced7c7c703846f",
+      "raw_bytes": 2324,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "eb9197597eac68a844a85c13c1c31dafa56383c8746ae7fe76b53cedba2a9e44",
+        "raw_sha256": "446eb75e2f19f42402e71ccfdb64e63ccbb0429e8880f4cecd9581762b2acd9f",
+        "scene_sha256": "28340a57aba2878a7ec9c4ca9b87370179aebaf47ff8b349dbef7bbc97532c10"
+      },
+      "family": "beacon",
+      "hash": "d8eae87d41a8cf5c697c8b6f105198bd263a64ec44de72f1ad0d958e0ac83ad4",
+      "n": 90,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -3,
+          1
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 1,
+        "mode": "augment",
+        "n": 90,
+        "requested_mode": "auto",
+        "seed": "31211c3d231c8d60e4a763ed662b021bdbe07cf2059226750dc9749de5d42ccf",
+        "seed_word": "lattice",
+        "translation": [
+          -24,
+          6.6,
+          8
+        ]
+      },
+      "prev_hash": "37cf7a9ab4fe259272527dd476a271f4eae470bcad29e9fffeab8db628999e43",
+      "raw_bytes": 2393,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "7fd43bc7ff902a1bd3270695171138c72799abc8f9f34c21892ac826586e7855",
+        "raw_sha256": "000112db01f0eb23a8dca17b212d1c08d8840a89b2a6bdbaf782c5f0e943f416",
+        "scene_sha256": "9f28326ebbd4d3c1f90c030fb1973617c1cc40a588f2dfa565a4e40222f11ffc"
+      },
+      "family": "coral",
+      "hash": "f762c6fda6b2ad4108802ccb0e2092655e6ae1e53c181d6bcd79cb88c39e41d8",
+      "n": 91,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          -3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 1,
+        "mode": "augment",
+        "n": 91,
+        "requested_mode": "auto",
+        "seed": "7cd5ebdd35c91f034408930f5519165c7ae7080fdba958ecf88b4c68e1c1c0da",
+        "seed_word": "helix",
+        "translation": [
+          -16,
+          6.6,
+          -24
+        ]
+      },
+      "prev_hash": "d8eae87d41a8cf5c697c8b6f105198bd263a64ec44de72f1ad0d958e0ac83ad4",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "1a481cfa554b55dfe8f785129584d5163a82415ce10708b53e1852f282e13012",
+        "raw_sha256": "477ecf2b3fbe209c94334660f2eb8795f51d3bf1282b717a6b2356dcbc5de3e3",
+        "scene_sha256": "a588cb071501c81183f1db6492457c35add25581ff868e1f04af2311cde3aac1"
+      },
+      "family": "mycelium",
+      "hash": "f0f45de43cf892d174eaf148be4c555211b734b213fb666402c5b47a70282b20",
+      "n": 92,
+      "nodes": 56,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          4,
+          3
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 92,
+        "requested_mode": "auto",
+        "seed": "7636a0530d877b21e7f7c4891d0e2f1e7756405b6bcd9d9a30bb4c70caf84de5",
+        "seed_word": "mycelium",
+        "translation": [
+          32,
+          0,
+          24
+        ]
+      },
+      "prev_hash": "f762c6fda6b2ad4108802ccb0e2092655e6ae1e53c181d6bcd79cb88c39e41d8",
+      "raw_bytes": 2465,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "878308e8e796f6f7bd2d3f7fac9e802c96a0466f1965668e7c5b00767643e2fb",
+        "raw_sha256": "a4506b74ff955ac4ce814f4da48e8d44931c78576c1870b6d3e1b324d5bb4e91",
+        "scene_sha256": "3071dcc5207aba31c88b69a066ea4acbe59d048f2f1d06b3cad8c2295db0881a"
+      },
+      "family": "mycelium",
+      "hash": "e3c7ca15bf8f74b5d39c7787cb52b51b7ee40a5e3652279239be46129916d125",
+      "n": 93,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -2,
+          -3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 2,
+        "mode": "augment",
+        "n": 93,
+        "requested_mode": "auto",
+        "seed": "f69b765e839ff571ed01247e030f612ffa2faf0c988040459d891869934db2d4",
+        "seed_word": "spire",
+        "translation": [
+          -16,
+          13.2,
+          -24
+        ]
+      },
+      "prev_hash": "f0f45de43cf892d174eaf148be4c555211b734b213fb666402c5b47a70282b20",
+      "raw_bytes": 2462,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "393f7e3bdab72f7cf781bb6285463962d81a08694378447ff541890d67ec0eb1",
+        "raw_sha256": "1a512088b3f602020f6637e298e451138269ea44cb3ba7a6ac6d23c305e3ba1d",
+        "scene_sha256": "19835d846c2d428e510cd347f55b055257db00f7b911a88afda0a93a51960390"
+      },
+      "family": "coral",
+      "hash": "2f9d83363c8ac89b73d4126984a00cd7a30fee1d7d1ff3d9fb4e30e21d5b50ab",
+      "n": 94,
+      "nodes": 56,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          -3,
+          0
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 1,
+        "mode": "augment",
+        "n": 94,
+        "requested_mode": "auto",
+        "seed": "ed1a3da7b0e64360795418b6d6f11df29e4f5bfec0c2b99184c518edb2b3214b",
+        "seed_word": "coral",
+        "translation": [
+          -24,
+          6.6,
+          0
+        ]
+      },
+      "prev_hash": "e3c7ca15bf8f74b5d39c7787cb52b51b7ee40a5e3652279239be46129916d125",
+      "raw_bytes": 2636,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "05dcabe1e3e3eb4dee4f7a3a2deb33c38345f4aa8ff866c8e1fc90f1f9238210",
+        "raw_sha256": "060fedd87f8d94f06bd10c9268e6da0183e4d0130c62636d5dca75a389f1ee86",
+        "scene_sha256": "75ee06295c24915915c04fa4b3b0d301ec8faf8b9ce0c8c03c700782917acfd2"
+      },
+      "family": "mycelium",
+      "hash": "c48bd8944178ecd4c6d892719e39e0d59933f89fc792b21333e1e97bcc82d0b2",
+      "n": 95,
+      "nodes": 56,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          4,
+          4
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 2,
+        "level": 0,
+        "mode": "generate",
+        "n": 95,
+        "requested_mode": "auto",
+        "seed": "d610c0f2acecbaedd71cc286f783e7b588e2fe93eafa764753a7cc73005b35fb",
+        "seed_word": "spire",
+        "translation": [
+          32,
+          0,
+          32
+        ]
+      },
+      "prev_hash": "2f9d83363c8ac89b73d4126984a00cd7a30fee1d7d1ff3d9fb4e30e21d5b50ab",
+      "raw_bytes": 2465,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "43f958040c131ec7e26d2f27ecf9a0944bd5574858f4d2a5252c727ea7e1b6bb",
+        "raw_sha256": "11ac4493a8eb3b141cef589d1bba1dff9a540f18c6f56f8306a80a2f79fcaeb2",
+        "scene_sha256": "879de9c53154d471d61cf2d50e8a10ce32c558f7b81396e9b64d50b95059c775"
+      },
+      "family": "beacon",
+      "hash": "55038439883552141bc505af001792091fcfc451b9628e51a991d2ab5e6bc92b",
+      "n": 96,
+      "nodes": 57,
+      "plan": {
+        "biome": "coral-glass",
+        "cell": [
+          3,
+          -3
+        ],
+        "color": [
+          0.21,
+          0.77,
+          0.7
+        ],
+        "era": 2,
+        "level": 1,
+        "mode": "augment",
+        "n": 96,
+        "requested_mode": "auto",
+        "seed": "bca87513d30375a6b72f18e34a8491e70176665151f8bafa2b553b9c6fa98c33",
+        "seed_word": "aurora",
+        "translation": [
+          24,
+          6.6,
+          -24
+        ]
+      },
+      "prev_hash": "c48bd8944178ecd4c6d892719e39e0d59933f89fc792b21333e1e97bcc82d0b2",
+      "raw_bytes": 2393,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "25aadda989bf66a2d3c3d2ee61c5244a6171ea2ffc2769d50033adcd410aaa7a",
+        "raw_sha256": "ede74c65e1a87663991ade2451be4c72b8be4a19943207e12f9ef4104c67c593",
+        "scene_sha256": "ed190dd94bf6345f95fe264882a5b2e02c984896af59b69f1de843fb71c2cee5"
+      },
+      "family": "orrery",
+      "hash": "0eb737f30a1e17dc27db6971a97a30cc56d2601b6a00674e8291f4b668cd2e73",
+      "n": 97,
+      "nodes": 57,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          3,
+          4
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 3,
+        "level": 0,
+        "mode": "generate",
+        "n": 97,
+        "requested_mode": "auto",
+        "seed": "5bb9f0cc5215db0dc9282ab838ee8439445946c0f58ca3caf42cc5259fb42647",
+        "seed_word": "turbine",
+        "translation": [
+          24,
+          0,
+          32
+        ]
+      },
+      "prev_hash": "55038439883552141bc505af001792091fcfc451b9628e51a991d2ab5e6bc92b",
+      "raw_bytes": 2324,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "238d4ce46f7039a4ff71122dc8694c916fa3b67506531abd50cad36ad5b21f5d",
+        "raw_sha256": "4bb24dc91cba7e9f591c4d3f96e238d9d0a4d69e8704092902696d7ba55f821e",
+        "scene_sha256": "40ba9df65b83a42d5969c1888d6cb10f2a4d6f5c330b89bb3a888f2f78b7f12a"
+      },
+      "family": "gyroscope",
+      "hash": "2cb371dbef17c5320644c5ec51b8736835688536b680cf6ad70fabcd2f4a95da",
+      "n": 98,
+      "nodes": 57,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          2,
+          4
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 3,
+        "level": 0,
+        "mode": "generate",
+        "n": 98,
+        "requested_mode": "auto",
+        "seed": "2e37b900986c3ff5395d6be10b71d906c3d205f429342133025503c698351372",
+        "seed_word": "gyroscope",
+        "translation": [
+          16,
+          0,
+          32
+        ]
+      },
+      "prev_hash": "0eb737f30a1e17dc27db6971a97a30cc56d2601b6a00674e8291f4b668cd2e73",
+      "raw_bytes": 2311,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "8b41593d9e64e24b35d7b55e942d71ff7acacfa4cc4be750c247bd70919ef095",
+        "raw_sha256": "d0b85a6cab675f8c0c5374572a5ae07dcbabd03197f759a916a587b05cd5e05d",
+        "scene_sha256": "282b2717b4720c8439a393715a811aaa56d821d53a86a4198c2ebdac98448dc4"
+      },
+      "family": "gyroscope",
+      "hash": "bd00e8769c464fcaed37107a903474b86768a971a869eb82b16d90dd7eb28baa",
+      "n": 99,
+      "nodes": 57,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          1,
+          4
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 3,
+        "level": 0,
+        "mode": "generate",
+        "n": 99,
+        "requested_mode": "auto",
+        "seed": "806adac62a06fac832f31e99bf15707b8188caf6526d3e069bbea97e99302fe1",
+        "seed_word": "gyroscope",
+        "translation": [
+          8,
+          0,
+          32
+        ]
+      },
+      "prev_hash": "2cb371dbef17c5320644c5ec51b8736835688536b680cf6ad70fabcd2f4a95da",
+      "raw_bytes": 2311,
+      "tier": 3
+    },
+    {
+      "candidate": {
+        "canonical_sha256": "2abb81a134d9074af6e2b162065c4c8fda88386807ff1c044f0ab6c951ff1ef9",
+        "raw_sha256": "d0dfb04a303855aebd9538dc8a20a3d00ff856ad1a349a119f13625017d40ef1",
+        "scene_sha256": "86b72d356958f6ce8b75add48669d328f11de163191cf316659e8bc75816b3eb"
+      },
+      "family": "coral",
+      "hash": "48aa3221febd2010d9e4ecc0428c4f2cddbab3606235ec8e06567a555fa0e310",
+      "n": 100,
+      "nodes": 56,
+      "plan": {
+        "biome": "verdant",
+        "cell": [
+          4,
+          -2
+        ],
+        "color": [
+          0.23,
+          0.57,
+          0.71
+        ],
+        "era": 3,
+        "level": 1,
+        "mode": "augment",
+        "n": 100,
+        "requested_mode": "auto",
+        "seed": "5220d3a0d2ca199605d98b23ee8b53016996bed405209c5379e37b30370a014f",
+        "seed_word": "tide",
+        "translation": [
+          32,
+          6.6,
+          -16
+        ]
+      },
+      "prev_hash": "bd00e8769c464fcaed37107a903474b86768a971a869eb82b16d90dd7eb28baa",
+      "raw_bytes": 2639,
+      "tier": 3
+    }
+  ],
+  "families": {
+    "beacon": 10,
+    "coral": 19,
+    "gyroscope": 13,
+    "mycelium": 19,
+    "orrery": 20,
+    "ziggurat": 19
+  },
+  "instrument": {
+    "mcp": {
+      "adapter_sha256": "9c17d7d8d7408e44a0b1dd28c529e32c056458398525e41f72b0a5e7e849aac8",
+      "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+      "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+      "files_sha256": {
+        "LICENSE": "d44b2af6013aee7eed3775190b1d15f9594cd70bafc2ce87e393747222271649",
+        "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/validation/listvalues.py": "9b5ad661b0f12efedb0cde0c6b7c64cd1ffc5b70a667f7c2b48ebdd02d473cf4",
+        "src/validation/oversize.py": "8e80d694d7f63daf0ccf6fb149c7a71b7857f7642b8a1477eecf9760c946bd23",
+        "src/validation/profile.py": "fc716b832034d728892cabf9960a4de22e9a4d58bde1833af25f0eee71f8f5f6",
+        "src/validation/schemas/X3dUnifiedObjectModel-4.0.xml": "7e426a238656c21a4a444b989276494329da363625c36f0a719b15d89416bee3",
+        "src/validation/schemas/X3dUnifiedObjectModel-4.1.xml": "4fc10e8e15c0d6cf2a916e4f59b815b110104aa7ea734dc6afea9458095c792b",
+        "src/validation/schemas/x3d-4.0-Web3dExtensionsPrivate.xsd": "27657b812199aee0155be97d74cbd78181464f558013c18fb19fa4cf3a5d6b9e",
+        "src/validation/schemas/x3d-4.0-Web3dExtensionsPublic.xsd": "7a61432dcf1fef3bd568e555b9bb1d18c08fadc88ddb9a438bc001a9e048a169",
+        "src/validation/schemas/x3d-4.0.xsd": "0509fa5bd6016a0b9104ced3c91d6585c8073041f79b8c3f9758748d131b5192",
+        "src/validation/schemas/x3d-4.1-Web3dExtensionsPrivate.xsd": "784ee866095751eb9ca559837defdf3c1b9980ce66623aaa7635ced6a0d645d3",
+        "src/validation/schemas/x3d-4.1-Web3dExtensionsPublic.xsd": "8643f06321b8152e481f30c03c1c9f00efd61b6ea3806c5e752289092c3289a2",
+        "src/validation/schemas/x3d-4.1.xsd": "1a7935caa7e6a63de2b275968bdc48da2f34124a43acb7b293674c3d16646a85",
+        "src/validation/schemas/xmldsig-core-schema.xsd": "35cf8197da812c85e40d57891b35c94187569ed474a2dac813ce5090dafcd35c",
+        "src/validation/semantic.py": "8ede23abf7a6dfaf2a35c8ce8975c67f5c4d2ed3b1d715e9d0aaca363fc0d73f",
+        "src/validation/splat_arrays.py": "88692a03a68df7688e49cd73b5c2d4715c252d4fc6a350c9d11200d9c6c44160",
+        "src/validation/validate.py": "bbae82aa7ae930acf1e632bec18b785ab106cdf63757077304b4718377870959",
+        "src/x3d_utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/x3d_utils/x3duom.py": "51489acdbf6a6ee8f9f023aa21f5141d528e7afc235af8e4ab8467f8d3bc228c"
+      },
+      "invocation": [
+        "validation.validate.validate_xml(version=\"4.0\")",
+        "validation.semantic.semantic_diagnostics"
+      ],
+      "repository": "https://github.com/hagopjay/x3d_mcp",
+      "runtime": {
+        "jsonschema": "4.26.0",
+        "libxml2": "2.14.6",
+        "lxml": "6.1.1.0",
+        "python": "3.12.14"
+      },
+      "schema_version": "4.0",
+      "semantic_vocabulary_version": "4.1"
+    },
+    "pipeline_code_sha256": "d824ca8fb633c25e8df50915e2b1d02aa1599f0d5126e120dfcdb8d4011457b0",
+    "pipeline_files": {
+      "accretion/__init__.py": "c1a79abc37e293f3cf5f04bc06dbb060d5b21f5c4a8d063e1561255d19f084d3",
+      "accretion/codec.py": "99e95d4c7e1867e409d7d8a13915169fa2a86746a795140addf3db934518091b",
+      "accretion/gate.py": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+      "accretion/generator.py": "9ac4ebe4b293f669c88b020e53e6e05f86e7384e4fd92e5a7869cb320cab9d3b",
+      "accretion/mcp_adapter.py": "9c17d7d8d7408e44a0b1dd28c529e32c056458398525e41f72b0a5e7e849aac8",
+      "accretion/world.py": "6f0a292c234d0bf6061a7184031a734dc2c7b43239ee7eb9588c96ad9a78ac92",
+      "serve.py": "65dbfb59031d41028df3f1a471bcd81125c11c2f953678bd6b1707ea5c10b294"
+    },
+    "script": "tools/benchmark_store.py",
+    "script_sha256": "78338997a75bf9ebd982bd2f8280cbb05dc532ed6de32f73c3ba08640561bcb6"
+  },
+  "limitations": [
+    "Each append performs full actual local admission; no mock witnesses or prevalidated admission bypass were used.",
+    "The record includes every procedural plan and candidate digest so the exact generated fragments can be reconstructed from pinned generator code.",
+    "Append wall time includes the application method, whose return value reads the current world. It excludes the caller snapshot/detail read and checkpoint exports.",
+    "Source timestamps and attempt identities influence the history chain; independent runs need not traverse the same procedural plans.",
+    "The 1,000-entry projection, if used to stop, is an explicit estimate and never a measurement.",
+    "These serialized sizes and local timings do not establish million-patch capacity, GPU frame rate or cloud throughput."
+  ],
+  "measured_entries": 100,
+  "not_measured": [
+    "GPU or browser performance",
+    "concurrent-author throughput",
+    "cloud storage",
+    "network delivery",
+    "authenticated human presence",
+    "model latency or spend"
+  ],
+  "observed_total_wall_seconds": 4.896535,
+  "projection_at_100": {
+    "early_warm_mean_seconds": 0.016749,
+    "intercept_seconds": 0.015104,
+    "late_mean_seconds": 0.039913,
+    "method": "Nonnegative linear per-append trend, early warm entries 2..10 versus entries 81..100; integrate 101..1000; add 10x measured 100-entry verify/export overhead.",
+    "per_entry_slope_seconds": 0.000274132,
+    "projected_total_seconds": 154.385896,
+    "status": "estimate_only_not_a_1000_entry_measurement"
+  },
+  "raw_patch_bytes": {
+    "max": 2642,
+    "mean": 2445.21,
+    "min": 2308
+  },
+  "recorded_utc": "2026-11-16T20:58:37+00:00",
+  "report_sha256": "8298925d58844506af985e927fc24df36712c35dd0db3446e7df83c2380acce8",
+  "rig": {
+    "cgroup_cpu_quota": null,
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "implementation": "CPython",
+    "logical_cpus_reported": 9,
+    "machine": "x86_64",
+    "note": "One shared runtime, one process and one writer. Filesystem cache and runtime scheduling were not isolated.",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "schema": "accretion.store-scaling/1",
+  "scope": "Single-writer local backend: actual fragment admission, pinned XSD/semantics, SQLite transactions, archive replay and JSON/X3D serialization.",
+  "skipped": [
+    {
+      "entries": 1000,
+      "limit_seconds": 90,
+      "projected_total_seconds": 154.385896,
+      "reason": "Measured 100-entry trend projected above the configured run budget.",
+      "status": "not_run"
+    }
+  ],
+  "temporary_database_removed_after_run": true,
+  "workload": {
+    "admission_bypasses": false,
+    "cold_warm": "First append includes lazy schema/validator initialization in this process. Later appends reuse upstream parser/schema caches. Imports before run() are outside append timing.",
+    "requested_checkpoints": [
+      10,
+      100,
+      1000
+    ],
+    "source": "New empty temporary SQLite database; authored procedural patches, zero model calls.",
+    "stop_rule_seconds": 90,
+    "tier": 3
+  }
+}

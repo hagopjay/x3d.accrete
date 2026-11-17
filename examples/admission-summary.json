@@ -1,0 +1,2022 @@
+{
+  "admissions": [
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "4e8cfea858c3a8e66bcb262e076994d624902777a9c9e330b45e67aaa11d9279",
+        "raw_sha256": "8a0febfc9c1e4bf7b37b1d39579bd1d3a1c45380a85c2c8b618f1383ed6050a2",
+        "scene_sha256": "5686123ecb090c8b95535d14be0463d5cfd273a89ecb327d1a6b0f84163c288d"
+      },
+      "cell": [
+        0,
+        0
+      ],
+      "entry_hash": "8821a31e71f3849156a3877a88602c1da212d894dfd50a31cbf3cbb9e319e8be",
+      "family": "gyroscope",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 1,
+      "previous_hash": "790f55863a591ed5a5b3201079071451f24672ac369e23ef33eb01040aabd80c",
+      "source_nodes": 57,
+      "title": "Vessel Gyroscope",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "4323c5a90c9b4f37eb6bbfb828713530b792afa43b84f98dc07ba6c2b3af192b",
+        "raw_sha256": "975f93703eb07db92ac44ff4982201b5f8b5083d749c6dd799745e62fc700db5",
+        "scene_sha256": "396fc47e12fcd7f5970d927cbcdbc794aa401c94ee9201a15d287f0a6df25a40"
+      },
+      "cell": [
+        1,
+        0
+      ],
+      "entry_hash": "291a511c86ade7faa6950ef08937d80ce053012db64be7c66044cdfcba18d37c",
+      "family": "orrery",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 2,
+      "previous_hash": "8821a31e71f3849156a3877a88602c1da212d894dfd50a31cbf3cbb9e319e8be",
+      "source_nodes": 57,
+      "title": "Orbit Orrery",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "6539adf97a611014e29b71250ef2904ca2bbfcab7c3c6dde23ce5ba5400b2500",
+        "raw_sha256": "9dee64eb43798f05b0726965efd1138a32d9b5878b0eee33c45ebc31d64d3e1f",
+        "scene_sha256": "dcb0df53c34d552614196720698fe252bc18da123ece98f0189f98726591c2fb"
+      },
+      "cell": [
+        1,
+        1
+      ],
+      "entry_hash": "8371bacaf11391470a5d7faac414b281b9bc42f2a80e2d81d9d2e2db7933452f",
+      "family": "coral",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 3,
+      "previous_hash": "291a511c86ade7faa6950ef08937d80ce053012db64be7c66044cdfcba18d37c",
+      "source_nodes": 56,
+      "title": "Resonance Coral",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "fc0bcfc9aea530cfbeb1689515c80fd9dfd1298bf57cd93573785ad5371c90d5",
+        "raw_sha256": "5c015c2868c5c65dac905c01fb2d710400eff5621ed045cb68d6e14d371373f7",
+        "scene_sha256": "ea896d31a77aa4c0d5c68e0060f153d811be6cd032f031f306c49b59ea4fa4b0"
+      },
+      "cell": [
+        0,
+        1
+      ],
+      "entry_hash": "b60afad0e16930ff746d351274f43a419565b56fdaca57cbf0234a526d17db83",
+      "family": "mycelium",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 4,
+      "previous_hash": "8371bacaf11391470a5d7faac414b281b9bc42f2a80e2d81d9d2e2db7933452f",
+      "source_nodes": 56,
+      "title": "Mycelium Mycelium",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "d05a97bf77dabbb9c1e731e0ba640c0754b8984926b738a19979b52785a050a6",
+        "raw_sha256": "ec6713175a5043795177444f14345dae881e32a09a8dd426e0f67a6200acabdc",
+        "scene_sha256": "894ccf80b259a496c4f8e0484f3d4910d4749f78ba1eb456d2123ee0e5cdf0e3"
+      },
+      "cell": [
+        -1,
+        1
+      ],
+      "entry_hash": "c00a0c62800080d3a17784c0224b0794d9e548d016ffa621a5581cacd47353d0",
+      "family": "gyroscope",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 5,
+      "previous_hash": "b60afad0e16930ff746d351274f43a419565b56fdaca57cbf0234a526d17db83",
+      "source_nodes": 57,
+      "title": "Canopy Gyroscope",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "703edf211ad4319a9328af2dd6ba7db67bb79369b92165e42bcbea689a38e37c",
+        "raw_sha256": "47d73cade8734419ecfb75005a8e684e634f4a64b31886baf47cce77cd523856",
+        "scene_sha256": "bdc7e525a650b82218e04b8c59e68906c1133c6a758c1ecd0dc5bf734564e752"
+      },
+      "cell": [
+        0,
+        1
+      ],
+      "entry_hash": "b23d62b9118584fa86101db0cd62a619a3d13bfde14d7a555efa524ef9d3805d",
+      "family": "mycelium",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 1,
+      "n": 6,
+      "previous_hash": "c00a0c62800080d3a17784c0224b0794d9e548d016ffa621a5581cacd47353d0",
+      "source_nodes": 56,
+      "title": "Turbine Mycelium",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "07edb4904fbc920a2326929d65f1bc4e56053fda09da19bb57fc985f098ba44b",
+        "raw_sha256": "09b7bfa65679e91f28048fe2a04c0719acaade7620ba9ecc6a4252c867f4b80d",
+        "scene_sha256": "bf181112216f9e87922304a4861b77ef6b081a8a18740bbf56c7fe90b079982e"
+      },
+      "cell": [
+        -1,
+        0
+      ],
+      "entry_hash": "355e51d54f1c9aadd7f5b257018b4a6e1f6f205d7629f3ed85f63c7b472964cf",
+      "family": "mycelium",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 7,
+      "previous_hash": "b23d62b9118584fa86101db0cd62a619a3d13bfde14d7a555efa524ef9d3805d",
+      "source_nodes": 56,
+      "title": "Resonance Mycelium",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "61a2954b1194e137122046e684192dfe610d74b1aa66dd2423996e9b22edc760",
+        "raw_sha256": "3cf01f83ba0cee76d9037a0b4da7045e9eedbe4e8f6b80960d2d3a17df9e18d8",
+        "scene_sha256": "a8d53dbaaa66cfcc4b42d2ba3ec4701dc16e273d472f4736007e4db69f1bc626"
+      },
+      "cell": [
+        -1,
+        -1
+      ],
+      "entry_hash": "0f27bc4905ad43388aa022ad44c12a3dd51253d98877abd044a4c6d230f481d7",
+      "family": "ziggurat",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 8,
+      "previous_hash": "355e51d54f1c9aadd7f5b257018b4a6e1f6f205d7629f3ed85f63c7b472964cf",
+      "source_nodes": 57,
+      "title": "Crystal Ziggurat",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "ba679eee13834c5236962dc3470d3211317936b8b8bb0be636ee976e365299f2",
+        "raw_sha256": "b95332d3224c227b031487e5bc64029f6a73b5a83e8de66a6a82c7c02823e688",
+        "scene_sha256": "6af6b0f4cdb25e84eecd0b3b693752143e3c4c10cdaa9ae8036fdf6be4a78634"
+      },
+      "cell": [
+        0,
+        1
+      ],
+      "entry_hash": "9474fb962134adc82ff58a39a1d4194142aad86c6c5d43dfdb0ffe9ecd0e1dd8",
+      "family": "ziggurat",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 2,
+      "n": 9,
+      "previous_hash": "0f27bc4905ad43388aa022ad44c12a3dd51253d98877abd044a4c6d230f481d7",
+      "source_nodes": 57,
+      "title": "Ziggurat Ziggurat",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "d7a9a159d238d88fe80b38bc129a8a7bf0383bf3d91bbc50e8f62aa9479dcb86",
+        "raw_sha256": "025a47970c4ba4b1603469ce58dde9adedfc7469c7feee05b8254b5f233d84e7",
+        "scene_sha256": "e9de39bbc6a3f54706bbe567b09ca18bcaf7990f36631958b18693b18cae0824"
+      },
+      "cell": [
+        -1,
+        0
+      ],
+      "entry_hash": "d727c4c435f65a360c6002a2839599c4056d8218c14eca80b8ed80def3199157",
+      "family": "orrery",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 1,
+      "n": 10,
+      "previous_hash": "9474fb962134adc82ff58a39a1d4194142aad86c6c5d43dfdb0ffe9ecd0e1dd8",
+      "source_nodes": 57,
+      "title": "Orrery Orrery",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "25856b754e174f6490725784e759a4add0a2876496cac3b93958699ed32aad44",
+        "raw_sha256": "32a2be6ac9cb441b5d24689f78ddb804be57b8f2dd32165254edb52a18bc3500",
+        "scene_sha256": "659f5532304133d9efa43ad2003a76ca2844740dd7877b564223c40caefaf0f1"
+      },
+      "cell": [
+        -1,
+        -1
+      ],
+      "entry_hash": "3c8a24ab600fef514a140b809f1a4675bcdfe4caee11be1bf7876836f27bc1d0",
+      "family": "mycelium",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 1,
+      "n": 11,
+      "previous_hash": "d727c4c435f65a360c6002a2839599c4056d8218c14eca80b8ed80def3199157",
+      "source_nodes": 56,
+      "title": "Astrolabe Mycelium",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "ffbf45f66b21c6c438916737f1597d6fdf543befecc4407fff53d223d8b8f185",
+        "raw_sha256": "286400f4dbe6042f7df2d84b3d4794946bf2673f7665485e5453e1c390bdcafc",
+        "scene_sha256": "a4f924b93df24b742866032ff41157cfb76de95df38fbfe56d8300f1246d956d"
+      },
+      "cell": [
+        -1,
+        -1
+      ],
+      "entry_hash": "fa522d2fb570a326329d475566e76f3c82866679a916831cd43d197f0cc9c8b4",
+      "family": "ziggurat",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 2,
+      "n": 12,
+      "previous_hash": "3c8a24ab600fef514a140b809f1a4675bcdfe4caee11be1bf7876836f27bc1d0",
+      "source_nodes": 57,
+      "title": "Ripple Ziggurat",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "6ca6e8fe9e7ac607f8e86da81ff99c28a3ce891f78216692796b54b80468acb1",
+        "raw_sha256": "d000a28d22550a79e277380431c49915b324e3ce1172df1df6accad6cc765782",
+        "scene_sha256": "006829c9799434b226de9a5053a32cb238d6b7c87c1d34e7e5e1add4d035f21e"
+      },
+      "cell": [
+        0,
+        -1
+      ],
+      "entry_hash": "89b57026d217b073ca18441d610b5d6f9d4953fe12068b0d947c6925c68b8984",
+      "family": "orrery",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 13,
+      "previous_hash": "fa522d2fb570a326329d475566e76f3c82866679a916831cd43d197f0cc9c8b4",
+      "source_nodes": 57,
+      "title": "Orbit Orrery",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "9f21e4fca0bd6250a8522519cd2e3de9cda64fef4fe3041dcb80f5b6f2de20e8",
+        "raw_sha256": "11477b3595336bc182ed6c30a0746e1000a09a80035ea057c19840e616296173",
+        "scene_sha256": "b7ed9cfe09a8b90c315fd3c8ca0c538d2eff832afa3c63ffb6bdd13c8539ac7a"
+      },
+      "cell": [
+        1,
+        -1
+      ],
+      "entry_hash": "8e3fb45a914b02effca5a8188569d35eb8320018d1448958b6c54c33c1a7ebcc",
+      "family": "orrery",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 14,
+      "previous_hash": "89b57026d217b073ca18441d610b5d6f9d4953fe12068b0d947c6925c68b8984",
+      "source_nodes": 57,
+      "title": "Orrery Orrery",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "77576d42cda2e440a117d71aa7706377fe58d7810c4fc21d4bf2c95d56ab28ec",
+        "raw_sha256": "b75462bbeacc8553d83b7935336f44be4f3a799d21e8c57e288519abd7bb8937",
+        "scene_sha256": "2d923e220d6f1d8a71c641c9e9e986ff4ab8a9cbd00f5381edbc3faaa970d3f9"
+      },
+      "cell": [
+        -1,
+        -1
+      ],
+      "entry_hash": "355d6f3dd327bacd75e57745f9cc18a9328a6384b1de892c2daa7387219ea434",
+      "family": "coral",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 3,
+      "n": 15,
+      "previous_hash": "8e3fb45a914b02effca5a8188569d35eb8320018d1448958b6c54c33c1a7ebcc",
+      "source_nodes": 56,
+      "title": "Aurora Coral",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "coral-glass",
+      "candidate": {
+        "canonical_sha256": "1721e9051398ecf416cd1dadfd2291e777260f5c099a188abffd89aed0e58386",
+        "raw_sha256": "a4da0b1fe866567dd268166c717e97e5067c7dedb6a6c11bfec382a2e66c0750",
+        "scene_sha256": "0454e5387793155a526d142829a1bea852c7b4b19b44305c8e00180f9af21bc3"
+      },
+      "cell": [
+        2,
+        -1
+      ],
+      "entry_hash": "ae3ed48b0d71f400664146154f550e1f9bad50d0751c83b1b1eef3bf32cb1e97",
+      "family": "ziggurat",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 16,
+      "previous_hash": "355d6f3dd327bacd75e57745f9cc18a9328a6384b1de892c2daa7387219ea434",
+      "source_nodes": 57,
+      "title": "Ripple Ziggurat",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "coral-glass",
+      "candidate": {
+        "canonical_sha256": "370f7864a9ffd2512ddbf0d3003602c591853432ff73f92d5974d535fa237040",
+        "raw_sha256": "bf78243e3e8fdee6147e08eba21d015c849b40a14947d56a8dfbe11efa14b6b1",
+        "scene_sha256": "9e3bbc7e1a303c800d30b9a950a85c83181e487b7a8539fe2e0ef64295e66ab8"
+      },
+      "cell": [
+        2,
+        0
+      ],
+      "entry_hash": "de000bd57ad57a793e70430a93c0deac67472f67270ed86e87589ee9f14eeb88",
+      "family": "beacon",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 17,
+      "previous_hash": "ae3ed48b0d71f400664146154f550e1f9bad50d0751c83b1b1eef3bf32cb1e97",
+      "source_nodes": 57,
+      "title": "Vessel Beacon",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "a13d432583c7ef783b6d679db6b6853c035d123b4ffe7f77674d610d0c63c580",
+        "raw_sha256": "ee64d03451cb172231a05f81513a701ca501fa539fcb8ac73cdab1633e1c07a2",
+        "scene_sha256": "a4095b18701ad671b5a795799339c300bbdecbd9aa9c79a4148b5fed260de3f3"
+      },
+      "cell": [
+        0,
+        -1
+      ],
+      "entry_hash": "7cf4f11ccd5a36e01a51536e6e6c429ac6727086161f47e07d5a29e908585440",
+      "family": "gyroscope",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 1,
+      "n": 18,
+      "previous_hash": "de000bd57ad57a793e70430a93c0deac67472f67270ed86e87589ee9f14eeb88",
+      "source_nodes": 57,
+      "title": "Vessel Gyroscope",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "cd7e22d7564ca73e1d9bcbb78c4f652fbdfcd48e05e4d29b03bdb0b6232a57f9",
+        "raw_sha256": "caf27414c3c54ac8fd0f7779353b30d871cd4962b5f155520ee4f01024a63a6e",
+        "scene_sha256": "8ab35fe8b444ab234464d4b5c8f10ddd46c05f7d4104ac19550409c6c82817b3"
+      },
+      "cell": [
+        0,
+        -1
+      ],
+      "entry_hash": "b832341115e3edbc80fdc90f21e27220393362e13d16c6db6a479617d473a2b3",
+      "family": "beacon",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 2,
+      "n": 19,
+      "previous_hash": "7cf4f11ccd5a36e01a51536e6e6c429ac6727086161f47e07d5a29e908585440",
+      "source_nodes": 57,
+      "title": "Ripple Beacon",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "coral-glass",
+      "candidate": {
+        "canonical_sha256": "82a8eb07978c944be2c14333121a662f73219bae5ad6719aebe6fe2302c6e937",
+        "raw_sha256": "b3fe2cdd40c0df796817992d9be7276c47430cc7730524b37a818d555af66ef5",
+        "scene_sha256": "5f28dc29220316d347cda590e795d511b4aef5058744254bde94b6f46af6db6b"
+      },
+      "cell": [
+        2,
+        1
+      ],
+      "entry_hash": "c59e12fe26bbd7658d91da8674fd04d2e0982ff3ce94b7e0853bf737dc90b3a8",
+      "family": "gyroscope",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 20,
+      "previous_hash": "b832341115e3edbc80fdc90f21e27220393362e13d16c6db6a479617d473a2b3",
+      "source_nodes": 57,
+      "title": "Ripple Gyroscope",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "coral-glass",
+      "candidate": {
+        "canonical_sha256": "63bd422aace3273612a7988e82f9498121933d655e00b2ff1964bfbbc803e90f",
+        "raw_sha256": "a2ace778a2cc096318e212cfe1a521a0afa0c1b3db29d77045f538249913dab4",
+        "scene_sha256": "a5d5bbde534a908e83f75a90d2c77b4dfef6ac81460d63d8aa360e443baac665"
+      },
+      "cell": [
+        2,
+        2
+      ],
+      "entry_hash": "36562f1b5d34ce263e54e971838fcde302a6cf484519935f74c7a43f660fad42",
+      "family": "coral",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 21,
+      "previous_hash": "c59e12fe26bbd7658d91da8674fd04d2e0982ff3ce94b7e0853bf737dc90b3a8",
+      "source_nodes": 56,
+      "title": "Cairn Coral",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "basalt-brass",
+      "candidate": {
+        "canonical_sha256": "f25d00fac5f04fbe0d6a90de630d76f1952628157970a17314a3a70937bf21ad",
+        "raw_sha256": "cdc2bd73000f4b49a95728834d2ea3c14b956483d04ed1387ac2be0d3d975390",
+        "scene_sha256": "ae951c46aae600b52bf8ea1b774d3293a753495e3aed9258b35e1498415ef298"
+      },
+      "cell": [
+        1,
+        -1
+      ],
+      "entry_hash": "c93da83ef50c52bb597fb9786d8ba0a72397c9d182aedf10ba881ae4cd944f5f",
+      "family": "coral",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 1,
+      "n": 22,
+      "previous_hash": "36562f1b5d34ce263e54e971838fcde302a6cf484519935f74c7a43f660fad42",
+      "source_nodes": 56,
+      "title": "Canopy Coral",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "coral-glass",
+      "candidate": {
+        "canonical_sha256": "8d4abf74e3d704d0fa6a8d9fd746288ab70e82cc9bdb9e16cb0b8889315f5895",
+        "raw_sha256": "67dd625e2a6320a8701928d18742a367c6198a255b4ba8683314f57e16f49d8f",
+        "scene_sha256": "16fbdfe9ea35b8865f29591d6947efb59fa29071cdf8886c53711132e2d6a43c"
+      },
+      "cell": [
+        1,
+        2
+      ],
+      "entry_hash": "6ce5f6e74bb677a8708178992612f02c0a75a77fd9d4bfa72697e703b98a0d7a",
+      "family": "coral",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 23,
+      "previous_hash": "c93da83ef50c52bb597fb9786d8ba0a72397c9d182aedf10ba881ae4cd944f5f",
+      "source_nodes": 56,
+      "title": "Lattice Coral",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "biome": "coral-glass",
+      "candidate": {
+        "canonical_sha256": "486992f8f3e0c57142dc77b77e46f460850190f11709823936eb8d74e6e40759",
+        "raw_sha256": "4f6db29af3072f71073f706808fad4382b1d71e33fe1a7d495965c9910c19b3d",
+        "scene_sha256": "024b8fe3d1ed2e7905602fcc963f1a7d1105a96524248159e8fa049626cbfa99"
+      },
+      "cell": [
+        0,
+        2
+      ],
+      "entry_hash": "307fab65e7bb8a8bd91f42ed377ce2200e338e7804b9cce85792c6d7eea6d6bb",
+      "family": "ziggurat",
+      "fit": {
+        "applied": false,
+        "scale": 1,
+        "slot_radius": 3,
+        "wrapper_in_canonical": true
+      },
+      "level": 0,
+      "n": 24,
+      "previous_hash": "6ce5f6e74bb677a8708178992612f02c0a75a77fd9d4bfa72697e703b98a0d7a",
+      "source_nodes": 57,
+      "title": "Ripple Ziggurat",
+      "witnesses": [
+        {
+          "id": "fragment",
+          "instrument": {
+            "code_sha256": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+            "id": "accretion.fragment-gate",
+            "scope": "Bounded XML subset, typed local references and conservative geometry/animation envelopes; not XSD, visibility, taste or Loom release acceptance.",
+            "version": "2.0.0"
+          },
+          "scope": "Restricted local fragment checks and conservative containment.",
+          "status": "pass"
+        },
+        {
+          "id": "xsd",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream XSD 4.0 on exact wrapped scene bytes.",
+          "status": "pass"
+        },
+        {
+          "id": "semantic",
+          "instrument": {
+            "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+            "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+            "repository": "https://github.com/hagopjay/x3d_mcp"
+          },
+          "scope": "Pinned upstream semantics using its default 4.1 UOM tables.",
+          "status": "pass"
+        },
+        {
+          "id": "render",
+          "required": false,
+          "scope": "Preview is not a candidate-bound render witness.",
+          "status": "not_run"
+        }
+      ]
+    }
+  ],
+  "archive_verification": {
+    "checked": 24,
+    "errors": [],
+    "head": 24,
+    "scope": "Hash chain, placement replay, policy and candidate/witness binding; not signatures, authorship or a fresh validator/render run.",
+    "tail_hash": "307fab65e7bb8a8bd91f42ed377ce2200e338e7804b9cce85792c6d7eea6d6bb",
+    "valid": true
+  },
+  "artifacts": {
+    "checkpoint.json": {
+      "bytes": 95,
+      "sha256": "02b1c14499c1057ceea60e86b38c770179edefebe789cb9c7cc32ab944797367"
+    },
+    "world.json": {
+      "bytes": 543751,
+      "sha256": "cdbfa8e7c5b3d1fdd57095b501dd5fef94443c02929db5072abc6f4d6a989b34"
+    },
+    "world.x3d": {
+      "bytes": 64536,
+      "sha256": "db834d1e7b6d66a660fdacfdcffc3b3a2592ce4f8be80de2744885704a219fed"
+    }
+  },
+  "built_utc": "2026-11-16T21:03:17.233+00:00",
+  "checkpoint": {
+    "hash": "307fab65e7bb8a8bd91f42ed377ce2200e338e7804b9cce85792c6d7eea6d6bb",
+    "head": 24
+  },
+  "count": 24,
+  "generation": {
+    "kind": "authored_procedural",
+    "scope": "Fresh local sculptures, not model output."
+  },
+  "limitations": [
+    "The world is authored procedural content. No model or hosted API was called.",
+    "The checkpoint was produced in this build; it is not an independent signature or trust root.",
+    "Every entry passed the actual local fragment gate and pinned XSD/semantic adapter before append.",
+    "Merged-scene validation is recorded separately and may remain not_run if an enlarged export exceeds the adapter cap.",
+    "No renderer or visual-performance witness ran in this command.",
+    "UUIDs and recorded admission timestamps make fresh builds different histories; each saved history remains replay-verifiable.",
+    "No SQLite database, owner key or author capability is included in these four example files."
+  ],
+  "merged_scene_input_cap_bytes": 131072,
+  "merged_scene_validation": {
+    "candidate_sha256": "db834d1e7b6d66a660fdacfdcffc3b3a2592ce4f8be80de2744885704a219fed",
+    "instrument": {
+      "adapter_sha256": "9c17d7d8d7408e44a0b1dd28c529e32c056458398525e41f72b0a5e7e849aac8",
+      "code_sha256": "24024becc2b3d20c03cba9f878ab20b011f9b50c0c07abec816ffd1c5cd6fc03",
+      "commit": "b5c9956917714747fe1d034c729612e99b0f09c9",
+      "files_sha256": {
+        "LICENSE": "d44b2af6013aee7eed3775190b1d15f9594cd70bafc2ce87e393747222271649",
+        "src/validation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/validation/listvalues.py": "9b5ad661b0f12efedb0cde0c6b7c64cd1ffc5b70a667f7c2b48ebdd02d473cf4",
+        "src/validation/oversize.py": "8e80d694d7f63daf0ccf6fb149c7a71b7857f7642b8a1477eecf9760c946bd23",
+        "src/validation/profile.py": "fc716b832034d728892cabf9960a4de22e9a4d58bde1833af25f0eee71f8f5f6",
+        "src/validation/schemas/X3dUnifiedObjectModel-4.0.xml": "7e426a238656c21a4a444b989276494329da363625c36f0a719b15d89416bee3",
+        "src/validation/schemas/X3dUnifiedObjectModel-4.1.xml": "4fc10e8e15c0d6cf2a916e4f59b815b110104aa7ea734dc6afea9458095c792b",
+        "src/validation/schemas/x3d-4.0-Web3dExtensionsPrivate.xsd": "27657b812199aee0155be97d74cbd78181464f558013c18fb19fa4cf3a5d6b9e",
+        "src/validation/schemas/x3d-4.0-Web3dExtensionsPublic.xsd": "7a61432dcf1fef3bd568e555b9bb1d18c08fadc88ddb9a438bc001a9e048a169",
+        "src/validation/schemas/x3d-4.0.xsd": "0509fa5bd6016a0b9104ced3c91d6585c8073041f79b8c3f9758748d131b5192",
+        "src/validation/schemas/x3d-4.1-Web3dExtensionsPrivate.xsd": "784ee866095751eb9ca559837defdf3c1b9980ce66623aaa7635ced6a0d645d3",
+        "src/validation/schemas/x3d-4.1-Web3dExtensionsPublic.xsd": "8643f06321b8152e481f30c03c1c9f00efd61b6ea3806c5e752289092c3289a2",
+        "src/validation/schemas/x3d-4.1.xsd": "1a7935caa7e6a63de2b275968bdc48da2f34124a43acb7b293674c3d16646a85",
+        "src/validation/schemas/xmldsig-core-schema.xsd": "35cf8197da812c85e40d57891b35c94187569ed474a2dac813ce5090dafcd35c",
+        "src/validation/semantic.py": "8ede23abf7a6dfaf2a35c8ce8975c67f5c4d2ed3b1d715e9d0aaca363fc0d73f",
+        "src/validation/splat_arrays.py": "88692a03a68df7688e49cd73b5c2d4715c252d4fc6a350c9d11200d9c6c44160",
+        "src/validation/validate.py": "bbae82aa7ae930acf1e632bec18b785ab106cdf63757077304b4718377870959",
+        "src/x3d_utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/x3d_utils/x3duom.py": "51489acdbf6a6ee8f9f023aa21f5141d528e7afc235af8e4ab8467f8d3bc228c"
+      },
+      "invocation": [
+        "validation.validate.validate_xml(version=\"4.0\")",
+        "validation.semantic.semantic_diagnostics"
+      ],
+      "repository": "https://github.com/hagopjay/x3d_mcp",
+      "runtime": {
+        "jsonschema": "4.26.0",
+        "libxml2": "2.14.6",
+        "lxml": "6.1.1.0",
+        "python": "3.12.14"
+      },
+      "schema_version": "4.0",
+      "semantic_vocabulary_version": "4.1"
+    },
+    "limitations": [
+      "Direct calls to the pinned repository code; no network MCP server or hosted model was called.",
+      "XSD is pinned to 4.0; upstream semantic checks use their default bundled 4.1 UOM/profile tables.",
+      "Semantic pass means no error-level diagnostics; warnings and infos remain recorded.",
+      "These checks do not establish visibility, rendering cost, aesthetic quality or Loom acceptance.",
+      "File digests establish local byte identity, not publisher authentication or an independent trust root."
+    ],
+    "semantic": {
+      "findings": [
+        {
+          "check": "unused-def",
+          "def_name": "A000001_M_base",
+          "level": "info",
+          "message": "DEF='A000001_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000001_M_glow",
+          "level": "info",
+          "message": "DEF='A000001_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000002_M_base",
+          "level": "info",
+          "message": "DEF='A000002_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000002_M_glow",
+          "level": "info",
+          "message": "DEF='A000002_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000003_M_base",
+          "level": "info",
+          "message": "DEF='A000003_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000003_M_glow",
+          "level": "info",
+          "message": "DEF='A000003_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000004_M_base",
+          "level": "info",
+          "message": "DEF='A000004_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000004_M_glow",
+          "level": "info",
+          "message": "DEF='A000004_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000005_M_base",
+          "level": "info",
+          "message": "DEF='A000005_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000005_M_glow",
+          "level": "info",
+          "message": "DEF='A000005_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000006_M_base",
+          "level": "info",
+          "message": "DEF='A000006_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000006_M_glow",
+          "level": "info",
+          "message": "DEF='A000006_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000007_M_base",
+          "level": "info",
+          "message": "DEF='A000007_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000007_M_glow",
+          "level": "info",
+          "message": "DEF='A000007_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000008_M_base",
+          "level": "info",
+          "message": "DEF='A000008_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000008_M_glow",
+          "level": "info",
+          "message": "DEF='A000008_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000009_M_base",
+          "level": "info",
+          "message": "DEF='A000009_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000009_M_glow",
+          "level": "info",
+          "message": "DEF='A000009_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000010_M_base",
+          "level": "info",
+          "message": "DEF='A000010_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000010_M_glow",
+          "level": "info",
+          "message": "DEF='A000010_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000011_M_base",
+          "level": "info",
+          "message": "DEF='A000011_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000011_M_glow",
+          "level": "info",
+          "message": "DEF='A000011_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000012_M_base",
+          "level": "info",
+          "message": "DEF='A000012_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000012_M_glow",
+          "level": "info",
+          "message": "DEF='A000012_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000013_M_base",
+          "level": "info",
+          "message": "DEF='A000013_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000013_M_glow",
+          "level": "info",
+          "message": "DEF='A000013_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000014_M_base",
+          "level": "info",
+          "message": "DEF='A000014_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000014_M_glow",
+          "level": "info",
+          "message": "DEF='A000014_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000015_M_base",
+          "level": "info",
+          "message": "DEF='A000015_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000015_M_glow",
+          "level": "info",
+          "message": "DEF='A000015_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000016_M_base",
+          "level": "info",
+          "message": "DEF='A000016_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000016_M_glow",
+          "level": "info",
+          "message": "DEF='A000016_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000017_M_base",
+          "level": "info",
+          "message": "DEF='A000017_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000017_M_ceramic",
+          "level": "info",
+          "message": "DEF='A000017_M_ceramic' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000018_M_base",
+          "level": "info",
+          "message": "DEF='A000018_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000018_M_glow",
+          "level": "info",
+          "message": "DEF='A000018_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000019_M_base",
+          "level": "info",
+          "message": "DEF='A000019_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000019_M_ceramic",
+          "level": "info",
+          "message": "DEF='A000019_M_ceramic' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000020_M_base",
+          "level": "info",
+          "message": "DEF='A000020_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000020_M_glow",
+          "level": "info",
+          "message": "DEF='A000020_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000021_M_base",
+          "level": "info",
+          "message": "DEF='A000021_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000021_M_glow",
+          "level": "info",
+          "message": "DEF='A000021_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000022_M_base",
+          "level": "info",
+          "message": "DEF='A000022_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000022_M_glow",
+          "level": "info",
+          "message": "DEF='A000022_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000023_M_base",
+          "level": "info",
+          "message": "DEF='A000023_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000023_M_glow",
+          "level": "info",
+          "message": "DEF='A000023_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000024_M_base",
+          "level": "info",
+          "message": "DEF='A000024_M_base' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        },
+        {
+          "check": "unused-def",
+          "def_name": "A000024_M_glow",
+          "level": "info",
+          "message": "DEF='A000024_M_glow' (Material) is defined but never USE'd and no ROUTE, IMPORT or EXPORT names it. This is fine if you reference it externally (Script, SAI).",
+          "node_tag": "Material"
+        }
+      ],
+      "status": "pass"
+    },
+    "status": "pass",
+    "xsd": {
+      "findings": [],
+      "notes": [],
+      "schema_version": "4.0",
+      "status": "pass"
+    }
+  },
+  "model_calls": 0,
+  "pipeline": {
+    "code_sha256": "d824ca8fb633c25e8df50915e2b1d02aa1599f0d5126e120dfcdb8d4011457b0",
+    "files": {
+      "accretion/__init__.py": "c1a79abc37e293f3cf5f04bc06dbb060d5b21f5c4a8d063e1561255d19f084d3",
+      "accretion/codec.py": "99e95d4c7e1867e409d7d8a13915169fa2a86746a795140addf3db934518091b",
+      "accretion/gate.py": "7c366245176ea289ab4ce417c1c803b75fe950cfa08fab1bc4109daf7f477d75",
+      "accretion/generator.py": "9ac4ebe4b293f669c88b020e53e6e05f86e7384e4fd92e5a7869cb320cab9d3b",
+      "accretion/mcp_adapter.py": "9c17d7d8d7408e44a0b1dd28c529e32c056458398525e41f72b0a5e7e849aac8",
+      "accretion/world.py": "6f0a292c234d0bf6061a7184031a734dc2c7b43239ee7eb9588c96ad9a78ac92",
+      "serve.py": "65dbfb59031d41028df3f1a471bcd81125c11c2f953678bd6b1707ea5c10b294"
+    }
+  },
+  "policy": {
+    "definition": {
+      "render_required": false,
+      "required": [
+        "fragment",
+        "xsd",
+        "semantic"
+      ],
+      "schema": "accretion.local-admission/v1",
+      "scope": "Restricted local content admission, not a formal Loom release receipt."
+    },
+    "sha256": "9710bd58a54049d9e447df303c8d5e9510a7c03111677b7f513ab8210b96ad00"
+  },
+  "report_sha256": "b51f5682bd3a1ac8c051e7e9ce07b1ff1b5430163cf64f3a0c066b4bbbd6ab66",
+  "schema": "accretion.demo-build/1",
+  "tier": 3,
+  "tool": {
+    "code_sha256": "634622c891456ef5d08eafc300e78ab51a0d53417af79ad2430eaaff93a0bd17",
+    "id": "tools/build_demo.py",
+    "python": "3.12.14"
+  },
+  "world": {
+    "cell_count": 15,
+    "entries_count": 24,
+    "head": 24,
+    "id": "accretion-observatory-v1",
+    "last_append_utc": "2026-11-16T21:03:17.159+00:00",
+    "max_level": 3,
+    "tail_hash": "307fab65e7bb8a8bd91f42ed377ce2200e338e7804b9cce85792c6d7eea6d6bb"
+  }
+}
