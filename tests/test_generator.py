@@ -19,6 +19,18 @@ def parsed(value):
 
 
 class GeneratorTests(unittest.TestCase):
+    def test_turntable_is_a_full_turn(self):
+        # Slerp takes the shortest arc, so a key step of pi or more plays out and back.
+        import math
+        for word in FAMILIES:
+            root = parsed(generate(plan(word), 4))
+            for node in root.iter('OrientationInterpolator'):
+                values = [float(x) for x in node.get('keyValue').split()]
+                angles = values[3::4]
+                self.assertGreaterEqual(len(angles), 4)
+                self.assertTrue(all(abs(b - a) < math.pi for a, b in zip(angles, angles[1:])))
+                self.assertAlmostEqual(angles[-1] - angles[0], 2 * math.pi, places=6)
+
     def test_repeatability(self):
         self.assertEqual(generate(plan(), 5), generate(plan(), 5))
 

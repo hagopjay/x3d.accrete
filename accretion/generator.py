@@ -302,7 +302,10 @@ def generate(plan: dict, tier: int = 3) -> dict:
     if rotor is not None:
         period = 26 + int(seed[8:12], 16) % 29
         ET.SubElement(holder, 'TimeSensor', {'DEF': 'Clock', 'cycleInterval': str(period), 'loop': 'true'})
-        ET.SubElement(holder, 'OrientationInterpolator', {'DEF': 'Turn', 'key': '0 .5 1', 'keyValue': '0 1 0 0 0 1 0 3.14159265 0 1 0 6.28318531'})
+        # Slerp takes the shortest arc, so each keyframe step must stay under pi:
+        # the old 0, pi, 2*pi keys played a half turn out and back. Four keys at
+        # 2*pi/3 steps give one full turn.
+        ET.SubElement(holder, 'OrientationInterpolator', {'DEF': 'Turn', 'key': '0 .33333333 .66666667 1', 'keyValue': '0 1 0 0 0 1 0 2.0943951 0 1 0 4.1887902 0 1 0 6.2831853'})
         routes = [{'fromNode': 'Clock', 'fromField': 'fraction_changed', 'toNode': 'Turn', 'toField': 'set_fraction'},
                   {'fromNode': 'Turn', 'fromField': 'value_changed', 'toNode': 'Rotor', 'toField': 'set_rotation'}]
         if tier >= 4 and 'glow' in seen:
